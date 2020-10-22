@@ -1,11 +1,11 @@
-int button_pin1 = 5;
-int button_pin2 = 4;
-int button_pin3 = 14;
-int button_pin4 = 12;
-int relay_pin1 = 0;
-int relay_pin2 = 2;
-int relay_pin3 = 13;
-int relay_pin4 = 1;
+int button_pin1 = 5;  //D1
+int button_pin2 = 4;  //D2
+int button_pin3 = 14; //D5
+int button_pin4 = 12; //D6
+int relay_pin1 = 0;   //D3
+int relay_pin2 = 2;   //D4
+int relay_pin3 = 13;  //D7
+int relay_pin4 = 1;   //TX
 bool relay1_state = HIGH;
 bool button1_pressed = false;
 
