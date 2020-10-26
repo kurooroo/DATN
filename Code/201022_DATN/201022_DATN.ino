@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "nta3100";
-const char* password = "20173616";
+const char* ssid = "Ducnvm18";
+const char* password = "mot23bon5sau";
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
@@ -82,6 +82,7 @@ void read_button(void)
     {
       relay1_state = !relay1_state;
       switch_relay();
+      update_state();
       button1_pressed = true;
     }
   }
@@ -155,6 +156,7 @@ void callback(char* topic, byte* payload, unsigned int length)
     }
   }
   switch_relay();
+  update_state();
 }
 
 void update_state(void)
