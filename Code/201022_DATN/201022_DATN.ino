@@ -3,11 +3,11 @@
 
 const char* ssid = "nta3100";
 const char* password = "20173616";
-const char* mqtt_server = "";
+const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
-long lastMsg=0;
+unsigned long lastUpdate=0;
 
 int button_pin1 = 5;  //D1
 int button_pin2 = 4;  //D2
@@ -30,6 +30,8 @@ void setup_wifi(void);
 void callback(char* topic, byte* payload, unsigned int length);
 // ham reconnect server mqtt
 void reconnect(void);
+// ham update trang thay hien tai cua switch
+void update_state(void);
 
 void setup() {
   // put your setup code here, to run once:
@@ -49,8 +51,9 @@ void setup() {
   digitalWrite(relay_pin2, HIGH);
   pinMode(relay_pin3, OUTPUT);
   digitalWrite(relay_pin3, HIGH);
-  pinMode(relay_pin4, OUTPUT);
-  digitalWrite(relay_pin4, HIGH);
+//  pinMode(relay_pin4, OUTPUT);
+//  digitalWrite(relay_pin4, HIGH);
+
 }
 
 void loop() {
@@ -61,7 +64,13 @@ void loop() {
   }
   client.loop();
   read_button();
-  switch_relay();
+  
+  unsigned long _now = millis();
+  if(_now - lastUpdate > 5000)
+  {
+    lastUpdate = _now;
+    update_state();
+  }
 }
 
 void read_button(void)
@@ -72,10 +81,11 @@ void read_button(void)
     if (digitalRead(button_pin1) == 1)
     {
       relay1_state = !relay1_state;
+      switch_relay();
       button1_pressed = true;
     }
   }
-  else
+  else if((digitalRead(button_pin1)==0) && (button1_pressed == true)) 
   {
     button1_pressed = false;
   }
@@ -86,7 +96,7 @@ void switch_relay(void)
   digitalWrite(relay_pin1, relay1_state);
 }
 
-void setup_wifi(void)
+void setup_wifi()
 {
   delay(10);
   // We start by connecting to a WiFi network
@@ -118,7 +128,8 @@ void reconnect(void)
     if(client.connect(clientID.c_str()))
     {
       Serial.println("connected");
-      client.subscribe();
+      client.publish("nta3100", "connected");
+      client.subscribe("nta/esp8266/datn/cmd");
     }
     else
     {
@@ -142,5 +153,18 @@ void callback(char* topic, byte* payload, unsigned int length)
     {
       relay1_state = HIGH;
     }
+  }
+  switch_relay();
+}
+
+void update_state(void)
+{
+  if(relay1_state==1)
+  {
+    client.publish("nta/esp8266/datn/state","1/0");
+  }
+  else
+  {
+    client.publish("nta/esp8266/datn/state","1/1");
   }
 }
