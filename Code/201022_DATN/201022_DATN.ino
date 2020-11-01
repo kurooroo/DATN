@@ -1,8 +1,8 @@
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
-const char* ssid = "Ducnvm18";
-const char* password = "mot23bon5sau";
+const char* ssid = "nta3100";
+const char* password = "20173616";
 const char* mqtt_server = "broker.hivemq.com";
 
 WiFiClient espClient;
@@ -99,6 +99,7 @@ void switch_relay(void)
 
 void setup_wifi()
 {
+  int try_connect = 10;
   delay(10);
   // We start by connecting to a WiFi network
   Serial.println();
@@ -113,11 +114,17 @@ void setup_wifi()
   }
 
   randomSeed(micros());
-
-  Serial.println("");
-  Serial.println("WiFi connected");
-  Serial.println("IP address: ");
-  Serial.println(WiFi.localIP());
+  if(WiFi.status() == WL_CONNECTED)
+  {
+    Serial.println("");
+    Serial.println("WiFi connected");
+    Serial.println("IP address: ");
+    Serial.println(WiFi.localIP());
+  }
+  else
+  {
+    Serial.println("WiFi not connected");  
+  }
 }
 
 void reconnect(void)
