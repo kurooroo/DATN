@@ -1,0 +1,52 @@
+Removed Pin From Net: NetName=3V3 Pin=BT1-1
+Removed Pin From Net: NetName=D1 Pin=BT1-2
+Removed Pin From Net: NetName=3V3 Pin=BT1-3
+Removed Pin From Net: NetName=D1 Pin=BT1-4
+Removed Pin From Net: NetName=3V3 Pin=BT2-1
+Removed Pin From Net: NetName=D2 Pin=BT2-2
+Removed Pin From Net: NetName=3V3 Pin=BT2-3
+Removed Pin From Net: NetName=D2 Pin=BT2-4
+Removed Pin From Net: NetName=3V3 Pin=BT3-1
+Removed Pin From Net: NetName=D5 Pin=BT3-2
+Removed Pin From Net: NetName=3V3 Pin=BT3-3
+Removed Pin From Net: NetName=D5 Pin=BT3-4
+Removed Pin From Net: NetName=3V3 Pin=BT4-1
+Removed Pin From Net: NetName=D6 Pin=BT4-2
+Removed Pin From Net: NetName=3V3 Pin=BT4-3
+Removed Pin From Net: NetName=D6 Pin=BT4-4
+Removed Member From Class: ClassName=DATN_Schematic Member=BT1
+Removed Member From Class: ClassName=DATN_Schematic Member=BT2
+Removed Member From Class: ClassName=DATN_Schematic Member=BT3
+Removed Member From Class: ClassName=DATN_Schematic Member=BT4
+Added Component: Designator=SW1(SW4B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Component: Designator=SW2(SW4B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Component: Designator=SW3(SW4B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Component: Designator=SW4(SW4B)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "Button chip 4 pin"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=SW1-1
+Added Pin To Net: NetName=D1 Pin=SW1-2
+Added Pin To Net: NetName=3V3 Pin=SW1-3
+Added Pin To Net: NetName=D1 Pin=SW1-4
+Added Pin To Net: NetName=3V3 Pin=SW2-1
+Added Pin To Net: NetName=D2 Pin=SW2-2
+Added Pin To Net: NetName=3V3 Pin=SW2-3
+Added Pin To Net: NetName=D2 Pin=SW2-4
+Added Pin To Net: NetName=3V3 Pin=SW3-1
+Added Pin To Net: NetName=D5 Pin=SW3-2
+Added Pin To Net: NetName=3V3 Pin=SW3-3
+Added Pin To Net: NetName=D5 Pin=SW3-4
+Added Pin To Net: NetName=3V3 Pin=SW4-1
+Added Pin To Net: NetName=D6 Pin=SW4-2
+Added Pin To Net: NetName=3V3 Pin=SW4-3
+Added Pin To Net: NetName=D6 Pin=SW4-4
+Added Member To Class: ClassName=DATN_Schematic Member=Component SW1 SW
+Added Member To Class: ClassName=DATN_Schematic Member=Component SW2 SW
+Added Member To Class: ClassName=DATN_Schematic Member=Component SW3 SW
+Added Member To Class: ClassName=DATN_Schematic Member=Component SW4 SW

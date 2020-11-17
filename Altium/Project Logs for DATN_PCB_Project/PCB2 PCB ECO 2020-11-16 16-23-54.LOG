@@ -1,0 +1,9 @@
+Added Component: Designator=C5(CN1.5)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "33pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=L_OUT4 Pin=C5-1
+Added Pin To Net: NetName=NetC5_2 Pin=C5-2
+Added Pin To Net: NetName=NetC5_2 Pin=R9-1
+Added Pin To Net: NetName=NetC5_2 Pin=R12-2
+Added Net: Name=NetC5_2
+Added Member To Class: ClassName=DATN_Schematic Member=Component C5 XXpF

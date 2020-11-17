@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=L_IN Pin=HLK-1
+Removed Pin From Net: NetName=N_IN Pin=HLK-2
+Added Pin To Net: NetName=N_IN Pin=HLK-1
+Added Pin To Net: NetName=L_IN Pin=HLK-2
