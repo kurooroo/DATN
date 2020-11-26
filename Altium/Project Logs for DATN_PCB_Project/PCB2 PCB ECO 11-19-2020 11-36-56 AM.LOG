@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=D0 Pin=LED_CONFIG-2
+Added Component: Designator=R17(RES-1/4W)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SubClass"; Value = "R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=D0 Pin=R17-1
+Added Pin To Net: NetName=NetLED_CONFIG_2 Pin=LED_CONFIG-2
+Added Pin To Net: NetName=NetLED_CONFIG_2 Pin=R17-2
+Added Net: Name=NetLED_CONFIG_2
+Added Member To Class: ClassName=DATN_Schematic Member=Component R17 330R

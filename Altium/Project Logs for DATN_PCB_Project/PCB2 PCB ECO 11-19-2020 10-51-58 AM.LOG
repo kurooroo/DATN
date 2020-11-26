@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=TX Pin=R6-2
+Added Component: Designator=LED_CONFIG(LED-5MM-BLUE)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "LED 3 ly Single Colour"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3V3 Pin=LED_CONFIG-1
+Added Pin To Net: NetName=D0 Pin=LED_CONFIG-2
+Added Pin To Net: NetName=D8 Pin=NodeMCU-1-D8
+Added Pin To Net: NetName=D8 Pin=R6-2
+Added Net: Name=D8
+Added Member To Class: ClassName=DATN_Schematic Member=Component LED_CONFIG LED

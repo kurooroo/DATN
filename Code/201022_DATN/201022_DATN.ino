@@ -36,7 +36,7 @@ void update_state(void);
 void setup() {
   // put your setup code here, to run once:
   // setup wifi
-  Serial.begin(115200);
+//  Serial.begin(115200);
   setup_wifi();
   client.setServer(mqtt_server, 1883);
   client.setCallback(callback);
@@ -102,28 +102,28 @@ void setup_wifi()
   int try_connect = 10;
   delay(10);
   // We start by connecting to a WiFi network
-  Serial.println();
-  Serial.print("Connecting to ");
-  Serial.println(ssid);
+//  Serial.println();
+//  Serial.print("Connecting to ");
+//  Serial.println(ssid);
 
   WiFi.begin(ssid, password);
 
   while (WiFi.status() != WL_CONNECTED) {
     delay(500);
-    Serial.print(".");
+//    Serial.print(".");
   }
 
   randomSeed(micros());
   if(WiFi.status() == WL_CONNECTED)
   {
-    Serial.println("");
-    Serial.println("WiFi connected");
-    Serial.println("IP address: ");
-    Serial.println(WiFi.localIP());
+//    Serial.println("");
+//    Serial.println("WiFi connected");
+//    Serial.println("IP address: ");
+//    Serial.println(WiFi.localIP());
   }
   else
   {
-    Serial.println("WiFi not connected");  
+//    Serial.println("WiFi not connected");  
   }
 }
 
@@ -131,19 +131,19 @@ void reconnect(void)
 {
   while(!client.connected())
   {
-    Serial.print("Attemp mqtt connection");
+//    Serial.print("Attemp mqtt connection");
     String clientID = "esp8266-datn";
     if(client.connect(clientID.c_str()))
     {
-      Serial.println("connected");
+//      Serial.println("connected");
       client.publish("nta3100", "connected");
       client.subscribe("nta/esp8266/datn/cmd");
     }
     else
     {
-      Serial.print("fail, rc=");
-      Serial.print(client.state());
-      Serial.print("try again in 5sec");
+//      Serial.print("fail, rc=");
+//      Serial.print(client.state());
+//      Serial.print("try again in 5sec");
       delay(5000);
     }
   }
