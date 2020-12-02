@@ -1,0 +1,19 @@
+<MyGrid>:
+
+    GridLayout:
+        cols: 2
+        size: root.width, root.height
+
+        Button:
+            id: button1
+            text: str(root.bt1_state)
+            on_press: root.btn(1)
+        Button:
+            text:"Button 2"
+            on_press: root.btn(2)
+        Button:
+            text:"Button 3"
+            on_press: root.btn(3)
+        Button:
+            text:"Button 4"
+            on_press: root.btn(4)

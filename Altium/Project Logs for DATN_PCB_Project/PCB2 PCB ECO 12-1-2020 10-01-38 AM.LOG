@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=LED_CONFIG NewDesignator=LED_CF
+Change Net Name : Old Net Name=NetLED_CONFIG_2 New Net Name=NetLED_CF_2
