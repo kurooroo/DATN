@@ -6,6 +6,7 @@ from kivy.uix.button import Button
 from kivy.uix.widget import Widget
 from kivy.properties import ObjectProperty
 from kivy.properties import StringProperty
+from kivy.clock import Clock, mainthread
 import paho.mqtt.client as mqtt
 
 # MQTT protocol
@@ -13,6 +14,7 @@ topicSubscribe = ["status/datnta"]
 topicPublish = "cmd/datnta" 
 mqtt_server = "broker.hivemq.com"
 mqtt_port = 1883
+touchFlag = False
 # user = ""
 # pw = ""
 def on_connect(client, userdata, flags, rc):
@@ -20,33 +22,31 @@ def on_connect(client, userdata, flags, rc):
     for topic in topicSubscribe:
         client.subscribe(topic)
 
-def on_message(client, userdata, msg):
-    print(msg)
-    if bt1_state == 0:
-        bt1_state = 1
-    else:
-        bt1_state = 0
-
-client = mqtt.Client()
 # client.username_pw_set(user, pw)
-client.on_connect = on_connect
-client.on_message = on_message
-
-client.connect(mqtt_server, mqtt_port, 60)
-
-
+# client = mqtt.Client()
 # App GUI and logic
 class MyGrid(Widget):
-    bt1_state = StringProperty()
-    bt1_state = 0
-    def btn(self, bt_number):
-        client.publish(topicPublish, bt_number)
+    button = ObjectProperty(None)
+
+    @mainthread
+    def btn(self, client, bt_number):
+        client.publish(topicPublish, "5")
+    def update(self, data):
+        self.button.text = str(data)
 
 class DATNApp(App):
+    client = mqtt.Client()
+    def on_message(self, client, userdata, message):
+        data = message.payload.decode("utf-8")
+        self.root.update(data)
     def build(self):
+        self.client.on_message = self.on_message
+        self.client.connect(mqtt_server, mqtt_port, 60)
+        self.client.loop_start()
+        self.client.subscribe("status/datnta")
         return MyGrid()
-
+    
 if __name__ == "__main__":
     DATNApp().run()
 
-client.loop_forever()
+
