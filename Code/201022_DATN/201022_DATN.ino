@@ -181,8 +181,8 @@ void reconnect(int number_try)
     if(client.connect(clientID.c_str()))
     {
 //      Serial.println("connected");
-      client.publish("nta3100", "connected");
-      client.subscribe("nta/esp8266/datn/cmd");
+      client.publish("status/datnta", "connected");
+      client.subscribe("cmd/datnta");
     }
     else
     {
@@ -200,65 +200,70 @@ void reconnect(int number_try)
 
 void callback(char* topic, byte* payload, unsigned int length)
 {
-  switch ((char)payload[0])
+  if((char)payload[0] == '/')
   {
-    case '1':
-      if((char)payload[2] == '1') out1_state = HIGH;
-      else out1_state = LOW;
-      break;
-     case '2':
-      if((char)payload[2] == '1') out2_state = HIGH;
-      else out2_state = LOW;
-      break;
-     case '3':
-      if((char)payload[2] == '1') out3_state = HIGH;
-      else out3_state = LOW;
-      break;
-     case '4':
-      if((char)payload[2] == '1') out4_state = HIGH;
-      else out4_state = LOW;
-      break;
+    switch ((char)payload[1])
+    {
+      case '1':
+        if((char)payload[3] == '1') out1_state = HIGH;
+        else out1_state = LOW;
+        break;
+       case '2':
+        if((char)payload[3] == '1') out2_state = HIGH;
+        else out2_state = LOW;
+        break;
+       case '3':
+        if((char)payload[3] == '1') out3_state = HIGH;
+        else out3_state = LOW;
+        break;
+       case '4':
+        if((char)payload[3] == '1') out4_state = HIGH;
+        else out4_state = LOW;
+        break;
+       default:
+        break;
+    }
+    change_output();
+    update_state();
   }
-  change_output();
-  update_state();
 }
 
 void update_state(void)
 {
   if(out1_state == 1)
   {
-    client.publish("nta/esp8266/datn/state","1/1");
+    client.publish("status/datnta","1/1");
   }
   else
   {
-    client.publish("nta/esp8266/datn/state","1/0");
+    client.publish("status/datnta","1/0");
   }
   
   if(out2_state == 1)
   {
-    client.publish("nta/esp8266/datn/state","2/1");
+    client.publish("status/datnta","2/1");
   }
   else
   {
-    client.publish("nta/esp8266/datn/state","2/0");
+    client.publish("status/datnta","2/0");
   }
   
   if(out3_state == 1)
   {
-    client.publish("nta/esp8266/datn/state","3/1");
+    client.publish("status/datnta","3/1");
   }
   else
   {
-    client.publish("nta/esp8266/datn/state","3/0");
+    client.publish("status/datnta","3/0");
   }
   
   if(out4_state == 1)
   {
-    client.publish("nta/esp8266/datn/state","4/1");
+    client.publish("status/datnta","4/1");
   }
   else
   {
-    client.publish("nta/esp8266/datn/state","4/0");
+    client.publish("status/datnta","4/0");
   }
 }
 
