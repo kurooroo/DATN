@@ -36,9 +36,11 @@ class MyGrid(Widget):
         if button_id == '1':
             if state == '1':
                 self.button1.text = "Button 1 ON"
+                self.button1.background_color = [240, 255, 0, 1]
                 buttonState[0] = 1
             elif state == '0':
                 self.button1.text = "Button 1 OFF"
+                self.button1.background_color = [255, 255, 255, 1]
                 buttonState[0] = 0
         if button_id == '2':
             if state == '1':
@@ -78,7 +80,7 @@ class DATNApp(App):
         return MyGrid()
 
     def sendCmd(self, bt_number):
-        str_temp = str(bt_number) + "/"
+        str_temp = "/" + str(bt_number) + "/"
         if buttonState[int(bt_number) - 1] == 0:
             str_temp += '1'
             self.client.publish(topicPublish, str_temp)
@@ -87,5 +89,3 @@ class DATNApp(App):
             self.client.publish(topicPublish, str_temp)
 if __name__ == "__main__":
     DATNApp().run()
-
-
