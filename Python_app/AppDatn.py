@@ -15,6 +15,7 @@ topicPublish = "cmd/datnta"
 mqtt_server = "broker.hivemq.com"
 mqtt_port = 1883
 buttonState = [0,0,0,0]
+start_up = True
 # user = ""
 # pw = ""
 def on_connect(client, userdata, flags, rc):
@@ -35,38 +36,43 @@ class MyGrid(Widget):
     def update(self, button_id, state):
         if button_id == '1':
             if state == '1':
-                self.button1.text = "Button 1 ON"
+                self.button1.text = "Switch 1 ON"
                 self.button1.background_color = [240, 255, 0, 1]
                 buttonState[0] = 1
             elif state == '0':
-                self.button1.text = "Button 1 OFF"
+                self.button1.text = "Switch 1 OFF"
                 self.button1.background_color = [255, 255, 255, 1]
                 buttonState[0] = 0
         if button_id == '2':
             if state == '1':
-                self.button2.text = "Button 2 ON"
+                self.button2.text = "Switch 2 ON"
+                self.button2.background_color = [240, 255, 0, 1]
                 buttonState[1] = 1
             elif state == '0':
-                self.button2.text = "Button 2 OFF"
+                self.button2.text = "Switch 2 OFF"
+                self.button2.background_color = [255, 255, 255, 1]
                 buttonState[1] = 0
         if button_id == '3':
             if state == '1':
-                self.button3.text = "Button 3 ON"
+                self.button3.text = "Switch 3 ON"
+                self.button3.background_color = [240, 255, 0, 1]
                 buttonState[2] = 1
             elif state == '0':
-                self.button3.text = "Button 3 OFF"
+                self.button3.text = "Switch 3 OFF"
+                self.button3.background_color = [255, 255, 255, 1]
                 buttonState[2] = 0
         if button_id == '4':
             if state == '1':
-                self.button4.text = "Button 4 ON"
+                self.button4.text = "Switch 4 ON"
+                self.button4.background_color = [240, 255, 0, 1]
                 buttonState[3] = 1
             elif state == '0':
-                self.button4.text = "Button 4 OFF"
+                self.button4.text = "Switch 4 OFF"
+                self.button4.background_color = [255, 255, 255, 1]
                 buttonState[3] = 0
     def btn(self, bt_number):
         DATNApp().sendCmd(bt_number)
         
-
 class DATNApp(App):
     client = mqtt.Client()
     def on_message(self, client, userdata, message):
