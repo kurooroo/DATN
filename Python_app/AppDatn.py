@@ -7,6 +7,9 @@ from kivy.uix.widget import Widget
 from kivy.properties import ObjectProperty
 from kivy.properties import StringProperty
 from kivy.clock import Clock, mainthread
+from kivy.lang import Builder
+import webbrowser
+import paho.mqtt.client as mqtt
 import paho.mqtt.client as mqtt
 
 # MQTT protocol
@@ -72,6 +75,9 @@ class MyGrid(Widget):
                 buttonState[3] = 0
     def btn(self, bt_number):
         DATNApp().sendCmd(bt_number)
+    def buttonConfigWifi(self):
+        # webbrowser.open('192.168.4.1/wifi?#p')
+        webbrowser.open('https://kivy.org/')
         
 class DATNApp(App):
     client = mqtt.Client()
@@ -79,10 +85,13 @@ class DATNApp(App):
         data = message.payload.decode("utf-8")
         self.root.update(data[0], data[2])
     def build(self):
-        self.client.on_message = self.on_message
-        self.client.connect(mqtt_server, mqtt_port, 60)
-        self.client.loop_start()
-        self.client.subscribe("status/datnta")
+        try:
+            self.client.on_message = self.on_message
+            self.client.connect(mqtt_server, mqtt_port, 60)
+            self.client.loop_start()
+            self.client.subscribe("status/datnta")
+        except:
+            pass
         return MyGrid()
 
     def sendCmd(self, bt_number):
