@@ -1,3 +1,45 @@
+<PopupTurnOn>:
+    Button:
+        text: "Bat"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0.75}
+        on_release: root.switch(1, 00)
+    Button:
+        text: "Bat 30 giay"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0.5}
+        on_release: root.switch(1, 30)
+    Button:
+        text: "Bat 1 phut"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0.25}
+        on_release: root.switch(1, 60)
+    Button:
+        text: "Bo qua"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0}
+        on_release: root.close()
+<PopupTurnOff>:
+    Button:
+        text: "Tat"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0.75}
+        on_release: root.switch(0, 00)
+    Button:
+        text: "Tat sau 30 giay"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0.5}
+        on_release: root.switch(0, 30)
+    Button:
+        text: "Tat sau 1 phut"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0.25}
+        on_release: root.switch(0, 60)
+    Button:
+        text: "Bo qua"
+        size_hint: 1, 0.25
+        pos_hint: {"x":0, "y":0}
+        on_release: root.close()
 <MyGrid>:
     button1: button1
     button2: button2
@@ -22,29 +64,29 @@
         Label:
             id: infoLabel3
             size_hint: 1, 0.05
-            text: "De tai: Thiet bi dong cat 4 kenh qua WiFi"
+            text: "De tai: Thiet ke thiet bi dong cat 4 kenh qua WiFi"
         GridLayout:
             cols: 2
             Button:
                 id: button1
                 text: "Cong tac 1"
                 font_size: 50
-                on_press: root.btn(1)
+                on_release: root.showPopup(1)
             Button:
                 id: button2
                 text: "Cong tac 2"
                 font_size: 50
-                on_press: root.btn(2)
+                on_release: root.showPopup(2)
             Button:
                 id: button3
                 text: "Cong tac 3"
                 font_size: 50
-                on_press: root.btn(3)
+                on_release: root.showPopup(3)
             Button:
                 id: button4
                 text: "Cong tac 4"
                 font_size: 50
-                on_press: root.btn(4)
+                on_release: root.showPopup(4)
         Button:
             size_hint: 1, 0.2
             id: configWifi

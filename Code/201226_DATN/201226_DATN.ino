@@ -26,6 +26,7 @@ byte out2 = 2;   //D4
 byte out3 = 13;  //D7
 byte out4 = 15;   //D8
 bool outState[4] = {0, 0, 0, 0};
+int switchTime[4] = {0, 0, 0, 0}, switchTimeRef[4] = {0, 0, 0, 0};
 int bt_flag;
 bool long_pressed = false, check_long_press = false;
 bool pressed = false;
@@ -47,6 +48,10 @@ void reconnect(int number_try);
 void updateState(void);
 // ham xu li nut an giu
 void long_press(void);
+// ham blink led 0.5s/0.5s
+void blinkLed(void);
+// ham delay switch
+void switchTimming(void);
 // ham isr
 ICACHE_RAM_ATTR void isr_pressed(void){
   noInterrupts();
@@ -54,21 +59,25 @@ ICACHE_RAM_ATTR void isr_pressed(void){
   if(digitalRead(bt1) == 1)
   {
     outState[0] = !outState[0];
+    switchTime[0] = 0;
     bt_flag = 1;
   }
   if(digitalRead(bt2) == 1)
   {
     outState[1] = !outState[1];
+    switchTime[0] = 0;
     bt_flag = 2;
   }
   if(digitalRead(bt3) == 1)
   {
     outState[2] = !outState[2];
+    switchTime[2] = 0;
     bt_flag = 3;
   }
   if(digitalRead(bt4) == 1)
   {
     outState[3] = !outState[3];
+    switchTime[3] = 0;
     bt_flag = 4;
   }
   changeOutput();
@@ -157,11 +166,12 @@ void setup() {
   }
   else
   {
-    setup_wifi(60);
+    setup_wifi(10);
   }
   digitalWrite(led_cf, HIGH);
   client.setServer(mqtt_server, 1883);
   client.setCallback(callback);
+  reconnect(2);
   // interrupts();
 }
 
@@ -202,6 +212,7 @@ void loop() {
  {
    long_press();
  }
+  switchTimming();
   if(millis() - lastUpdate > _20sec)
   {
     lastUpdate = millis();
@@ -221,7 +232,7 @@ void loop() {
   if((WiFi.status() == WL_CONNECTED) && (millis() - mqtt_rec > _1min) && !client.connected())
   {
     mqtt_rec = millis();
-    reconnect(3);
+    reconnect(2);
     digitalWrite(led_cf, HIGH);
   }
   client.loop();
@@ -276,10 +287,7 @@ void setup_wifi(int number_try)
   WiFi.begin();
 
   while ((WiFi.status() != WL_CONNECTED) && (try_times < number_try)) {
-    digitalWrite(led_cf, LOW);
-    delay(500);
-    digitalWrite(led_cf, HIGH);
-    delay(500);
+    blinkLed();
     Serial.print(".");
     try_times++;
   }
@@ -316,47 +324,82 @@ void reconnect(int number_try)
       Serial.print("fail, rc=");
       Serial.print(client.state());
       Serial.print("try again in 5sec");
+      blinkLed();
       try_times++;
-      digitalWrite(led_cf, LOW);
-      delay(1000);
-      digitalWrite(led_cf, HIGH);
-      delay(1000);
     }
   }
 }
 
 void callback(char* topic, byte* payload, unsigned int length)
 {
+  char timeBuffer[2];
+  int timeTemp;
+  timeBuffer[0] = (char)payload[5];
+  timeBuffer[1] = (char)payload[6];
+  timeTemp = atoi(timeBuffer);
   #ifdef DEBUG
   for (int i = 0; i < length; i++) {
     Serial.print((char)payload[i]);
   }
+  Serial.println();
+  Serial.print(timeTemp);
   Serial.println();
   #endif
   if((char)payload[0] == '/')
   {
     if((char)payload[1] == '1')
     {
-      if((char)payload[3] == '1') outState[0] = 1;
-      else outState[0] = 0;
+      switchTime[0] = timeTemp;
+      switchTimeRef[0] = millis();
+      if((char)payload[3] == '1')
+      {
+        outState[0] = 1;
+      }
+      else if(switchTime[0] == 0)
+      {
+        outState[0] = 0;
+      }
     }
     else if ((char)payload[1] == '2')
     {
-      if((char)payload[3] == '1') outState[1] = 1;
-      else outState[1] = 0;
+      switchTime[1] = timeTemp;
+      switchTimeRef[1] = millis();
+      if((char)payload[3] == '1')
+      {
+        outState[1] = 1;
+      }
+      else if(switchTime[1] == 0)
+      {
+        outState[1] = 0;
+      }
     }
     else if ((char)payload[1] == '3')
     {
-      if((char)payload[3] == '1') outState[2] = 1;
-      else outState[2] = 0;
+      switchTime[2] = timeTemp;
+      switchTimeRef[2] = millis();
+      if((char)payload[3] == '1')
+      {
+        outState[2] = 1;
+      }
+      else if(switchTime[2] == 0)
+      {
+        outState[2] = 0;
+      }
     }
     else if ((char)payload[1] == '4')
     {
-      if((char)payload[3] == '1') outState[3] = 1;
-      else outState[3] = 0;
+      switchTime[3] = timeTemp;
+      switchTimeRef[3] = millis();
+      if((char)payload[3] == '1')
+      {
+        outState[3] = 1;
+      }
+      else if(switchTime[3] == 0)
+      {
+        outState[3] = 0;
+      }
     }
     changeOutput();
-    updateState();
   }
 }
 
@@ -421,4 +464,28 @@ void updateState(void)
   mqttPubString += "/3/" + String(outState[2]);
   mqttPubString += "/4/" + String(outState[3]);
   client.publish("status/datnta",(char*)mqttPubString.c_str());
+}
+
+void blinkLed(void)
+{
+  digitalWrite(led_cf, LOW);
+  delay(500);
+  digitalWrite(led_cf, HIGH);
+  delay(500);
+}
+
+void switchTimming(void)
+{
+  for(int i = 0; i < 4; i++)
+  {
+    if(switchTime[i] != 0)
+    {
+      if(millis() - switchTimeRef[i] > switchTime[i]*1000)
+      {
+        switchTime[i] = 0;
+        outState[i] = 0;
+        changeOutput();
+      }
+    }
+  }
 }

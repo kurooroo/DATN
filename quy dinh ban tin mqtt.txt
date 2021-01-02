@@ -1,0 +1,4 @@
+0 = tat
+1 = bat
+status/datnta: /1/x/2/x/3/x/4/x
+cmd/datnta: /switch x/bat-tat/thoi gian

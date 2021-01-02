@@ -9,6 +9,8 @@ from kivy.properties import StringProperty
 from kivy.clock import Clock, mainthread
 from kivy.base import runTouchApp
 from kivy.lang import Builder
+from kivy.uix.popup import Popup 
+from kivy.uix.floatlayout import FloatLayout
 import webbrowser
 import paho.mqtt.client as mqtt
 
@@ -21,6 +23,8 @@ mqtt_port = 1883
 buttonState = [0,0,0,0]
 start_up = True
 flagConnected = False
+_switchNumber = 0
+popupWindow = True
 # user = ""
 # pw = ""
 # def on_connect(client, userdata, flags, rc):
@@ -38,6 +42,20 @@ flagConnected = False
 # client.username_pw_set(user, pw)
 # client = mqtt.Client()
 # App GUI and logic
+class PopupTurnOn(FloatLayout):
+    def switch(self, switchType, switchTime):
+        global  _switchNumber
+        DATNApp().sendCmd(_switchNumber, switchType, switchTime)
+        popupWindow.dismiss()
+    def close(self):
+        popupWindow.dismiss()
+class PopupTurnOff(FloatLayout):
+    def switch(self, switchType, switchTime):
+        global  _switchNumber
+        DATNApp().sendCmd(_switchNumber, switchType, switchTime)
+        popupWindow.dismiss()
+    def close(self):
+        popupWindow.dismiss()
 class MyGrid(Widget):
     button1 = ObjectProperty(None)
     button2 = ObjectProperty(None)
@@ -72,9 +90,19 @@ class MyGrid(Widget):
         elif buttonUpdateState[3] == '0':
             self.button4.text = "Cong tac 4 Tat"
             buttonState[3] = 0
+    def showPopup(self, switchNumber):
+        global _switchNumber, popupWindow
+        _switchNumber = int(switchNumber)
+        if buttonState[_switchNumber - 1] == 0:
+            show = PopupTurnOn()
+            popupWindow = Popup(title = "Bat cong tac", content = show, 
+                                size_hint = (None, None), size = (500,500))
+        elif buttonState[_switchNumber - 1] == 1:
+            show = PopupTurnOff()
+            popupWindow = Popup(title = "Tat cong tac", content = show, 
+                                size_hint = (None, None), size = (500,500))
+        popupWindow.open()
 
-    def btn(self, bt_number):
-        DATNApp().sendCmd(bt_number)
     def buttonConfigWifi(self):
         webbrowser.open('192.168.4.1/wifi?#p')
         # webbrowser.open('https://kivy.org/')
@@ -99,7 +127,8 @@ class DATNApp(App):
         data = message.payload.decode("utf-8")
         if debug:
             print(data)
-        self.root.update(data)
+        if data[0] == '/':
+            self.root.update(data)
         # self.root._update(data[0], data[2])
     def build(self):
         try:
@@ -114,13 +143,14 @@ class DATNApp(App):
         except:
             pass
         return MyGrid()
-
-    def sendCmd(self, bt_number):
-        str_temp = "/" + str(bt_number) + "/"
-        if buttonState[int(bt_number) - 1] == 0:
+    #switchType = 1 => Bat; 0 => tat
+    def sendCmd(self, switchNumber, switchType, switchTime):
+        str_temp = "/" + str(switchNumber) + "/"
+        if buttonState[int(switchNumber) - 1] == 0:
             str_temp += '1'
         else:
             str_temp += '0'
+        str_temp += '/' + str(switchTime)
         self.client.publish(topicPublish, str_temp)
 
     def mqttReconnect(self):
