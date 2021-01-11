@@ -2,3 +2,26 @@
 1 = bat
 status/datnta: /1/x/2/x/3/x/4/x
 cmd/datnta: /switch x/bat-tat/thoi gian
+bat x giay xong tat
+tat sau x giay
+
+he thong dien toa nha:
+B1: execl: liet ke phu tai, bom (khanh), thang may, thang cuon
+	o cam: 
+B2: thiet ke chieu sang
+B3:	chon may bien ap - tu bu cong suat(chon theo sach) - chon may phat
+B4:	chon day dan va sut ap 
+		tu may bien ap den tu tang
+		tu tu tang den tu phong
+		tu phong den thiet bi dien (goi y 1.5mm)
+		kiem tra day dan bang sut ap (<5% udm)
+B5:	chon chong set
+		tu dien tich
+B6:	chon thiet bi bao ve (tai lieu chon may bien ap)
+		may cat, dao cach ly , aptomat
+		kiem tra aptomat bang dong ngan mach 
+	
+Ban ve: ecodial
+		dialux
+		cad (di day): o cam, den, tu dien, cong tac den, may bom
+		

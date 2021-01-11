@@ -123,6 +123,14 @@ void setup() {
   // put your setup code here, to run once:
   // setup wifi
   // noInterrupts();
+  pinMode(out1, OUTPUT);
+  digitalWrite(out1, LOW);
+  pinMode(out2, OUTPUT);
+  digitalWrite(out2, LOW);
+  pinMode(out3, OUTPUT);
+  digitalWrite(out3, LOW);
+  pinMode(out4, OUTPUT);
+  digitalWrite(out4, LOW);
   Serial.begin(115200);
   pinMode(led_cf, OUTPUT);
   digitalWrite(led_cf, HIGH);
@@ -134,14 +142,14 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(bt3), isr_pressed, RISING);
   pinMode(bt4, INPUT);
   attachInterrupt(digitalPinToInterrupt(bt4), isr_pressed, RISING);
-  pinMode(out1, OUTPUT);
-  digitalWrite(out1, LOW);
-  pinMode(out2, OUTPUT);
-  digitalWrite(out2, LOW);
-  pinMode(out3, OUTPUT);
-  digitalWrite(out3, LOW);
-  pinMode(out4, OUTPUT);
-  digitalWrite(out4, LOW);
+//  pinMode(out1, OUTPUT);
+//  digitalWrite(out1, LOW);
+//  pinMode(out2, OUTPUT);
+//  digitalWrite(out2, LOW);
+//  pinMode(out3, OUTPUT);
+//  digitalWrite(out3, LOW);
+//  pinMode(out4, OUTPUT);
+//  digitalWrite(out4, LOW);
 
   EEPROM.begin(512);
   char check = char(EEPROM.read(0));
