@@ -167,10 +167,14 @@ void setup() {
     WiFiManager wifiManager;
 //    wifiManager.setAPStaticIPConfig();
 //    wifiManager.autoConnect("DATN-NTA-20173616");
-    // wifiManager.setConfigPortalTimeout(180);
+    wifiManager.setConfigPortalTimeout(180);
+    wifiManager.setCaptivePortalEnable(false);
+    wifiManager.setBreakAfterConfig(true);
+    wifiManager.setConnectRetries(5);
     wifiManager.startConfigPortal("DATN-NTA-20173616");
     // ssid = wifiManager._ssid.c_str();
     // password = wifiManager._pass.c_str();
+    ESP.restart();
   }
   else
   {
