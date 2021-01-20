@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=GPIO12 Pin=ESP8266-6
+Removed Pin From Net: NetName=GPIO4 Pin=ESP8266-19
+Removed Pin From Net: NetName=GPIO5 Pin=ESP8266-20
+Removed Pin From Net: NetName=GPIO3 Pin=J7-2
+Added Pin To Net: NetName=GPIO5 Pin=ESP8266-6
+Added Pin To Net: NetName=GPIO3 Pin=ESP8266-19
+Added Pin To Net: NetName=GPIO4 Pin=ESP8266-20
+Added Pin To Net: NetName=GPIO12 Pin=J7-2
+Change Net Name : Old Net Name=GPIO3 New Net Name=GPIO4
+Change Net Name : Old Net Name=GPIO4 New Net Name=GPIO5
+Change Net Name : Old Net Name=GPIO5 New Net Name=GPIO12
+Change Net Name : Old Net Name=GPIO12 New Net Name=GPIO3
