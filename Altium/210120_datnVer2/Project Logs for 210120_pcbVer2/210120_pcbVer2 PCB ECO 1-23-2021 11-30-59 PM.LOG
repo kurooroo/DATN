@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=3V3 Pin=AMS1-4
+Change Component Comment : Designator=C6 Old Comment=100nF New Comment=22uF
+Change Component Comment : Designator=C7 Old Comment=100nF New Comment=22uF
