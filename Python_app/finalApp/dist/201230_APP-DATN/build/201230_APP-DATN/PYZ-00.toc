@@ -1,0 +1,4128 @@
+('D:\\NTA\\projects\\DATN\\Python_app\\finalApp\\build\\201230_APP-DATN\\PYZ-00.pyz',
+ [('os', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\os.py', 'PYMODULE'),
+  ('subprocess',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('selectors',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\selectors.py',
+   'PYMODULE'),
+  ('threading',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\threading.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('contextlib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('signal',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\signal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\datetime.py',
+   'PYMODULE'),
+  ('calendar',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\calendar.py',
+   'PYMODULE'),
+  ('argparse',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('copy', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\copy.py', 'PYMODULE'),
+  ('gettext',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\gettext.py',
+   'PYMODULE'),
+  ('struct',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\struct.py',
+   'PYMODULE'),
+  ('ntpath',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('string',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\string.py',
+   'PYMODULE'),
+  ('genericpath',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('stat', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\stat.py', 'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.semaphore_tracker',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\semaphore_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('tempfile',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('random',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\random.py',
+   'PYMODULE'),
+  ('bisect',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\bisect.py',
+   'PYMODULE'),
+  ('hashlib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('shutil',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\shutil.py',
+   'PYMODULE'),
+  ('zipfile',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('tokenize',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('token', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\token.py', 'PYMODULE'),
+  ('importlib.util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('tarfile',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('gzip', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\gzip.py', 'PYMODULE'),
+  ('_compression',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_compression.py',
+   'PYMODULE'),
+  ('lzma', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\lzma.py', 'PYMODULE'),
+  ('bz2', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\bz2.py', 'PYMODULE'),
+  ('fnmatch',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('logging',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('pickle',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pickle.py',
+   'PYMODULE'),
+  ('pprint',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pprint.py',
+   'PYMODULE'),
+  ('doctest',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\doctest.py',
+   'PYMODULE'),
+  ('unittest',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('pdb', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pdb.py', 'PYMODULE'),
+  ('getopt',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pydoc', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pydoc.py', 'PYMODULE'),
+  ('email.message',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.policy',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('urllib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.generator',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('base64',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\base64.py',
+   'PYMODULE'),
+  ('email.charset',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.header',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.errors',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.utils',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('socket',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\socket.py',
+   'PYMODULE'),
+  ('email',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email.parser',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('quopri',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\quopri.py',
+   'PYMODULE'),
+  ('uu', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\uu.py', 'PYMODULE'),
+  ('optparse',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\optparse.py',
+   'PYMODULE'),
+  ('http.server',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('http',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('socketserver',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('http.client',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ssl.py', 'PYMODULE'),
+  ('html',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('html.entities',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\tty.py', 'PYMODULE'),
+  ('urllib.parse',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('platform',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\platform.py',
+   'PYMODULE'),
+  ('plistlib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\netrc.py', 'PYMODULE'),
+  ('http.cookiejar',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('runpy', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\runpy.py', 'PYMODULE'),
+  ('shlex', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\shlex.py', 'PYMODULE'),
+  ('glob', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\glob.py', 'PYMODULE'),
+  ('code', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\code.py', 'PYMODULE'),
+  ('codeop',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\codeop.py',
+   'PYMODULE'),
+  ('dis', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\dis.py', 'PYMODULE'),
+  ('opcode',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\opcode.py',
+   'PYMODULE'),
+  ('bdb', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\bdb.py', 'PYMODULE'),
+  ('cmd', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\cmd.py', 'PYMODULE'),
+  ('inspect',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\inspect.py',
+   'PYMODULE'),
+  ('ast', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ast.py', 'PYMODULE'),
+  ('difflib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\difflib.py',
+   'PYMODULE'),
+  ('__future__',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\__future__.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('ctypes',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\queue.py', 'PYMODULE'),
+  ('multiprocessing.queues',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\numbers.py',
+   'PYMODULE'),
+  ('hmac', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\hmac.py', 'PYMODULE'),
+  ('multiprocessing.managers',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('win32com',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\__init__.py',
+   'PYMODULE'),
+  ('win32com.server.util',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\server\\util.py',
+   'PYMODULE'),
+  ('win32com.server.dispatcher',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\server\\dispatcher.py',
+   'PYMODULE'),
+  ('win32traceutil',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32\\lib\\win32traceutil.py',
+   'PYMODULE'),
+  ('win32com.util',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\util.py',
+   'PYMODULE'),
+  ('win32con',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32\\lib\\win32con.py',
+   'PYMODULE'),
+  ('win32com.server.exception',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\server\\exception.py',
+   'PYMODULE'),
+  ('winerror',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32\\lib\\winerror.py',
+   'PYMODULE'),
+  ('win32com.server.policy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\server\\policy.py',
+   'PYMODULE'),
+  ('win32com.client',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.makepy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\makepy.py',
+   'PYMODULE'),
+  ('pywin.dialogs.status',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\status.py',
+   'PYMODULE'),
+  ('pywin.mfc.thread',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\thread.py',
+   'PYMODULE'),
+  ('pywin.mfc.object',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\object.py',
+   'PYMODULE'),
+  ('pywin.mfc.dialog',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\dialog.py',
+   'PYMODULE'),
+  ('pywin.mfc.window',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\window.py',
+   'PYMODULE'),
+  ('pywin.mfc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\mfc\\__init__.py',
+   'PYMODULE'),
+  ('pywin.dialogs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\__init__.py',
+   'PYMODULE'),
+  ('pywin',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\__init__.py',
+   'PYMODULE'),
+  ('win32com.client.gencache',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\gencache.py',
+   'PYMODULE'),
+  ('win32com.client.selecttlb',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\selecttlb.py',
+   'PYMODULE'),
+  ('pywin.dialogs.list',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\Pythonwin\\pywin\\dialogs\\list.py',
+   'PYMODULE'),
+  ('commctrl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32\\lib\\commctrl.py',
+   'PYMODULE'),
+  ('win32com.client.genpy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\genpy.py',
+   'PYMODULE'),
+  ('win32com.client.CLSIDToClass',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\CLSIDToClass.py',
+   'PYMODULE'),
+  ('win32com.client.dynamic',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\dynamic.py',
+   'PYMODULE'),
+  ('win32com.client.build',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\build.py',
+   'PYMODULE'),
+  ('pywintypes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32\\lib\\pywintypes.py',
+   'PYMODULE'),
+  ('distutils.sysconfig',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\sysconfig.py',
+   'PYMODULE'),
+  ('distutils',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('distutils.archive_util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\archive_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\file_util.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\dep_util.py',
+   'PYMODULE'),
+  ('distutils.spawn',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\spawn.py',
+   'PYMODULE'),
+  ('distutils.debug',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\debug.py',
+   'PYMODULE'),
+  ('distutils.ccompiler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\util.py',
+   'PYMODULE'),
+  ('distutils.filelist',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\filelist.py',
+   'PYMODULE'),
+  ('distutils.log',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\log.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\text_file.py',
+   'PYMODULE'),
+  ('_osx_support',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_osx_support.py',
+   'PYMODULE'),
+  ('distutils.errors',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\errors.py',
+   'PYMODULE'),
+  ('win32com.server',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\server\\__init__.py',
+   'PYMODULE'),
+  ('win32com.universal',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\universal.py',
+   'PYMODULE'),
+  ('win32com.client.util',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32com\\client\\util.py',
+   'PYMODULE'),
+  ('pythoncom',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\pythoncom.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('typing',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\typing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('win32com.shell.shellcon',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32comext\\shell\\shellcon.py',
+   'PYMODULE'),
+  ('win32com.shell',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32comext\\shell\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('uuid', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\uuid.py', 'PYMODULE'),
+  ('ctypes.util',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\util.py',
+   'PYMODULE'),
+  ('ctypes._aix',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\_aix.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\macholib\\dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\macholib\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\macholib\\dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\macholib\\framework.py',
+   'PYMODULE'),
+  ('netbios',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\win32\\lib\\netbios.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._typing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\sysconfig.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\imp.py', 'PYMODULE'),
+  ('stringprep',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_py_abc.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('paho.mqtt.client',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\client.py',
+   'PYMODULE'),
+  ('paho.mqtt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\__init__.py',
+   'PYMODULE'),
+  ('paho',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\__init__.py',
+   'PYMODULE'),
+  ('paho.mqtt.matcher',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\matcher.py',
+   'PYMODULE'),
+  ('paho.mqtt.properties',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\properties.py',
+   'PYMODULE'),
+  ('paho.mqtt.packettypes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\packettypes.py',
+   'PYMODULE'),
+  ('paho.mqtt.reasoncodes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\reasoncodes.py',
+   'PYMODULE'),
+  ('paho.mqtt.subscribeoptions',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\paho\\mqtt\\subscribeoptions.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('kivy.uix.floatlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\floatlayout.py',
+   'PYMODULE'),
+  ('kivy.uix',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.layout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\layout.py',
+   'PYMODULE'),
+  ('kivy.compat',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\compat.py',
+   'PYMODULE'),
+  ('kivy.uix.popup',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\popup.py',
+   'PYMODULE'),
+  ('kivy.core.window',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\window\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.vkeyboard',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\vkeyboard.py',
+   'PYMODULE'),
+  ('json',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('kivy.resources',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\resources.py',
+   'PYMODULE'),
+  ('kivy.core.image',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\__init__.py',
+   'PYMODULE'),
+  ('kivy.atlas',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\atlas.py',
+   'PYMODULE'),
+  ('imghdr',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\imghdr.py',
+   'PYMODULE'),
+  ('kivy.uix.scatter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\scatter.py',
+   'PYMODULE'),
+  ('kivy.vector',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\vector.py',
+   'PYMODULE'),
+  ('kivy.graphics',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\graphics\\__init__.py',
+   'PYMODULE'),
+  ('kivy.cache',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\cache.py',
+   'PYMODULE'),
+  ('kivy.core.gl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\gl\\__init__.py',
+   'PYMODULE'),
+  ('ctypes.wintypes',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\ctypes\\wintypes.py',
+   'PYMODULE'),
+  ('kivy.animation',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\animation.py',
+   'PYMODULE'),
+  ('kivy.setupconfig',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\setupconfig.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.touchripple',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\touchripple.py',
+   'PYMODULE'),
+  ('kivy.uix.relativelayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\relativelayout.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.cover',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\cover.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.emacs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\emacs.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.codenavigation',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\codenavigation.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.compoundselection',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\compoundselection.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.focus',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\focus.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.drag',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\drag.py',
+   'PYMODULE'),
+  ('kivy.metrics',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\metrics.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.togglebutton',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\togglebutton.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.button',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\button.py',
+   'PYMODULE'),
+  ('kivy.context',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\context.py',
+   'PYMODULE'),
+  ('kivy.utils',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\utils.py',
+   'PYMODULE'),
+  ('kivy.event',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\event.py',
+   'PYMODULE'),
+  ('kivy.modules',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\modules\\__init__.py',
+   'PYMODULE'),
+  ('kivy.logger',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\logger.py',
+   'PYMODULE'),
+  ('kivy.config',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\config.py',
+   'PYMODULE'),
+  ('configparser',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\configparser.py',
+   'PYMODULE'),
+  ('kivy.core',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.modalview',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\modalview.py',
+   'PYMODULE'),
+  ('kivy.uix.anchorlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\anchorlayout.py',
+   'PYMODULE'),
+  ('kivy.core.text',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\text\\__init__.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_pango',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\text\\text_pango.py',
+   'PYMODULE'),
+  ('kivy.lang',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lang\\__init__.py',
+   'PYMODULE'),
+  ('kivy.lang.parser',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lang\\parser.py',
+   'PYMODULE'),
+  ('kivy.lang.builder',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lang\\builder.py',
+   'PYMODULE'),
+  ('cgi', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\cgi.py', 'PYMODULE'),
+  ('kivy.factory',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\factory.py',
+   'PYMODULE'),
+  ('kivy.factory_registers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\factory_registers.py',
+   'PYMODULE'),
+  ('kivy.base',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\base.py',
+   'PYMODULE'),
+  ('kivy.input',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\__init__.py',
+   'PYMODULE'),
+  ('kivy.input.factory',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\factory.py',
+   'PYMODULE'),
+  ('kivy.input.provider',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\provider.py',
+   'PYMODULE'),
+  ('kivy.input.postproc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\__init__.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.calibration',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\calibration.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.dejitter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\dejitter.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.retaintouch',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\retaintouch.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.ignorelist',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\ignorelist.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.tripletap',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\tripletap.py',
+   'PYMODULE'),
+  ('kivy.input.postproc.doubletap',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\postproc\\doubletap.py',
+   'PYMODULE'),
+  ('kivy.input.providers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\__init__.py',
+   'PYMODULE'),
+  ('kivy.input.providers.leapfinger',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\leapfinger.py',
+   'PYMODULE'),
+  ('kivy.input.providers.androidjoystick',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\androidjoystick.py',
+   'PYMODULE'),
+  ('pygame',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\__init__.py',
+   'PYMODULE'),
+  ('pygame.colordict',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\colordict.py',
+   'PYMODULE'),
+  ('pygame.macosx',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\macosx.py',
+   'PYMODULE'),
+  ('pygame.pkgdata',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\pkgdata.py',
+   'PYMODULE'),
+  ('numpy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.distutils.cpuinfo',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\cpuinfo.py',
+   'PYMODULE'),
+  ('numpy.distutils.compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\compat.py',
+   'PYMODULE'),
+  ('numpy.distutils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\fcompiler\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config_compiler',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\config_compiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.command',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.egg_info',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.command.egg_info',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\egg_info.py',
+   'PYMODULE'),
+  ('setuptools.extern',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\extern\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.glob',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\glob.py',
+   'PYMODULE'),
+  ('setuptools.unicode_utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\unicode_utils.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_egg',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\bdist_egg.py',
+   'PYMODULE'),
+  ('setuptools.extension',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\extension.py',
+   'PYMODULE'),
+  ('setuptools.monkey',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\monkey.py',
+   'PYMODULE'),
+  ('distutils.extension',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\extension.py',
+   'PYMODULE'),
+  ('setuptools.command',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.command.install_scripts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('setuptools.command.easy_install',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\easy_install.py',
+   'PYMODULE'),
+  ('setuptools.dist',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\dist.py',
+   'PYMODULE'),
+  ('setuptools.installer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\installer.py',
+   'PYMODULE'),
+  ('setuptools.config',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\config.py',
+   'PYMODULE'),
+  ('setuptools.windows_support',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\windows_support.py',
+   'PYMODULE'),
+  ('distutils.version',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\version.py',
+   'PYMODULE'),
+  ('distutils.cmd',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\cmd.py',
+   'PYMODULE'),
+  ('setuptools.wheel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\wheel.py',
+   'PYMODULE'),
+  ('setuptools.package_index',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\package_index.py',
+   'PYMODULE'),
+  ('setuptools.ssl_support',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\ssl_support.py',
+   'PYMODULE'),
+  ('setuptools.archive_util',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\archive_util.py',
+   'PYMODULE'),
+  ('setuptools.sandbox',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\sandbox.py',
+   'PYMODULE'),
+  ('site',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\PyInstaller\\fake-modules\\site.py',
+   'PYMODULE'),
+  ('distutils.command.build_scripts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('distutils.command',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\__init__.py',
+   'PYMODULE'),
+  ('distutils.command.install',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('distutils.command.install_scripts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\install_scripts.py',
+   'PYMODULE'),
+  ('distutils.command.bdist',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\bdist.py',
+   'PYMODULE'),
+  ('setuptools.command.setopt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\setopt.py',
+   'PYMODULE'),
+  ('setuptools.command.sdist',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools.command.py36compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\py36compat.py',
+   'PYMODULE'),
+  ('distutils.command.sdist',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('setuptools',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._structures',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('setuptools._vendor',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.specifiers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._typing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_typing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.tags',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.requirements',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging._compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\_compat.py',
+   'PYMODULE'),
+  ('setuptools._vendor.ordered_set',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\ordered_set.py',
+   'PYMODULE'),
+  ('setuptools._vendor.pyparsing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\pyparsing.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.markers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('setuptools._vendor.packaging.__about__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('setuptools.msvc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\msvc.py',
+   'PYMODULE'),
+  ('distutils.msvc9compiler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\msvc9compiler.py',
+   'PYMODULE'),
+  ('distutils.command.build_ext',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('distutils._msvccompiler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\_msvccompiler.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('setuptools.namespaces',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\namespaces.py',
+   'PYMODULE'),
+  ('setuptools.depends',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\depends.py',
+   'PYMODULE'),
+  ('setuptools._imp',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_imp.py',
+   'PYMODULE'),
+  ('setuptools.py34compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\py34compat.py',
+   'PYMODULE'),
+  ('setuptools.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\version.py',
+   'PYMODULE'),
+  ('setuptools._deprecation_warning',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\_deprecation_warning.py',
+   'PYMODULE'),
+  ('_distutils_hack.override',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\_distutils_hack\\override.py',
+   'PYMODULE'),
+  ('_distutils_hack',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\_distutils_hack\\__init__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.develop',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\develop.py',
+   'PYMODULE'),
+  ('setuptools.command.develop',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\develop.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_clib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\install_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.bdist_rpm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('distutils.command.bdist_rpm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('setuptools.command.bdist_rpm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\bdist_rpm.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\install.py',
+   'PYMODULE'),
+  ('setuptools.command.install',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\setuptools\\command\\install.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_headers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('distutils.command.install_headers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\install_headers.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.install_data',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('distutils.command.install_data',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\install_data.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.sdist',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\sdist.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_scripts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\build_scripts.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_clib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('distutils.command.build_clib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\distutils\\command\\build_clib.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_ext',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\build_ext.py',
+   'PYMODULE'),
+  ('numpy.distutils.system_info',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\system_info.py',
+   'PYMODULE'),
+  ('numpy.f2py',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\__init__.py',
+   'PYMODULE'),
+  ('numpy.f2py.diagnose',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\diagnose.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py_testing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\f2py_testing.py',
+   'PYMODULE'),
+  ('numpy.f2py.f2py2e',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\f2py2e.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_src',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\build_src.py',
+   'PYMODULE'),
+  ('numpy.distutils.conv_template',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\conv_template.py',
+   'PYMODULE'),
+  ('numpy.distutils.from_template',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\from_template.py',
+   'PYMODULE'),
+  ('numpy.f2py.auxfuncs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\auxfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.f90mod_rules',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\f90mod_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.rules',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.use_rules',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\use_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.common_rules',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\common_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.func2subr',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\func2subr.py',
+   'PYMODULE'),
+  ('numpy.f2py.crackfortran',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\crackfortran.py',
+   'PYMODULE'),
+  ('fileinput',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\fileinput.py',
+   'PYMODULE'),
+  ('numpy.f2py.cb_rules',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\cb_rules.py',
+   'PYMODULE'),
+  ('numpy.f2py.capi_maps',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\capi_maps.py',
+   'PYMODULE'),
+  ('numpy.f2py.cfuncs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\cfuncs.py',
+   'PYMODULE'),
+  ('numpy.f2py.__version__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\f2py\\__version__.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build_py',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('distutils.command.build_py',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\build_py.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.build',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('distutils.command.build',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\build.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.config',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('numpy.distutils.command.autodist',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\command\\autodist.py',
+   'PYMODULE'),
+  ('numpy.distutils.mingw32ccompiler',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\mingw32ccompiler.py',
+   'PYMODULE'),
+  ('distutils.msvccompiler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\msvccompiler.py',
+   'PYMODULE'),
+  ('distutils.unixccompiler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('distutils.cygwinccompiler',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\cygwinccompiler.py',
+   'PYMODULE'),
+  ('distutils.command.config',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\command\\config.py',
+   'PYMODULE'),
+  ('distutils.core',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\core.py',
+   'PYMODULE'),
+  ('distutils.config',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\config.py',
+   'PYMODULE'),
+  ('distutils.dist',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\dist.py',
+   'PYMODULE'),
+  ('distutils.versionpredicate',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\distutils\\versionpredicate.py',
+   'PYMODULE'),
+  ('numpy.distutils.core',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\core.py',
+   'PYMODULE'),
+  ('numpy.distutils.numpy_distribution',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\numpy_distribution.py',
+   'PYMODULE'),
+  ('numpy.distutils.extension',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\extension.py',
+   'PYMODULE'),
+  ('numpy.distutils.fcompiler.environment',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\fcompiler\\environment.py',
+   'PYMODULE'),
+  ('numpy.distutils.exec_command',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\exec_command.py',
+   'PYMODULE'),
+  ('numpy.distutils.misc_util',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\misc_util.py',
+   'PYMODULE'),
+  ('curses',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\curses\\__init__.py',
+   'PYMODULE'),
+  ('curses.has_key',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\curses\\has_key.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('numpy.distutils.__config__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\__config__.py',
+   'PYMODULE'),
+  ('numpy.distutils.npy_pkg_config',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\npy_pkg_config.py',
+   'PYMODULE'),
+  ('numpy.distutils.unixccompiler',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\unixccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils.ccompiler',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\ccompiler.py',
+   'PYMODULE'),
+  ('numpy.distutils._shell_utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\_shell_utils.py',
+   'PYMODULE'),
+  ('pipes', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pipes.py', 'PYMODULE'),
+  ('numpy.distutils.lib2def',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\lib2def.py',
+   'PYMODULE'),
+  ('numpy.distutils.log',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\distutils\\log.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('scipy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\__init__.py',
+   'PYMODULE'),
+  ('scipy.fft',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.dual',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\numpy\\dual.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.helper',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_pocketfft\\helper.py',
+   'PYMODULE'),
+  ('scipy.fft._backend',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_backend.py',
+   'PYMODULE'),
+  ('scipy._lib.uarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\uarray.py',
+   'PYMODULE'),
+  ('scipy._lib._uarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\_uarray\\__init__.py',
+   'PYMODULE'),
+  ('scipy._lib._uarray._backend',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\_uarray\\_backend.py',
+   'PYMODULE'),
+  ('scipy._lib._pep440',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\_pep440.py',
+   'PYMODULE'),
+  ('scipy.fft._helper',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_helper.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_pocketfft\\__init__.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.realtransforms',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_pocketfft\\realtransforms.py',
+   'PYMODULE'),
+  ('scipy.fft._pocketfft.basic',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_pocketfft\\basic.py',
+   'PYMODULE'),
+  ('scipy.fft._realtransforms',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_realtransforms.py',
+   'PYMODULE'),
+  ('scipy.fft._basic',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\fft\\_basic.py',
+   'PYMODULE'),
+  ('scipy._lib._testutils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\_testutils.py',
+   'PYMODULE'),
+  ('scipy._lib._ccallback',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\_ccallback.py',
+   'PYMODULE'),
+  ('scipy._lib._version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\_version.py',
+   'PYMODULE'),
+  ('scipy._lib.six',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\six.py',
+   'PYMODULE'),
+  ('scipy.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\version.py',
+   'PYMODULE'),
+  ('scipy.__config__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\__config__.py',
+   'PYMODULE'),
+  ('scipy._distributor_init',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.machar',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\machar.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('scipy._lib.deprecation',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\scipy\\_lib\\deprecation.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('pathlib',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\pathlib.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.financial',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\financial.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('pygame.sndarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\sndarray.py',
+   'PYMODULE'),
+  ('pygame._numpysndarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\_numpysndarray.py',
+   'PYMODULE'),
+  ('pygame.surfarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\surfarray.py',
+   'PYMODULE'),
+  ('pygame._numpysurfarray',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\_numpysurfarray.py',
+   'PYMODULE'),
+  ('pygame.sysfont',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\sysfont.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('pygame.ftfont',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\ftfont.py',
+   'PYMODULE'),
+  ('pygame.threads',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\threads\\__init__.py',
+   'PYMODULE'),
+  ('pygame.sprite',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\sprite.py',
+   'PYMODULE'),
+  ('pygame.cursors',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\cursors.py',
+   'PYMODULE'),
+  ('pygame.compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\compat.py',
+   'PYMODULE'),
+  ('pygame.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygame\\version.py',
+   'PYMODULE'),
+  ('kivy.input.shape',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\shape.py',
+   'PYMODULE'),
+  ('kivy.input.providers.linuxwacom',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\linuxwacom.py',
+   'PYMODULE'),
+  ('kivy.input.providers.hidinput',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\hidinput.py',
+   'PYMODULE'),
+  ('kivy.input.providers.mtdev',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\mtdev.py',
+   'PYMODULE'),
+  ('kivy.lib.mtdev',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lib\\mtdev.py',
+   'PYMODULE'),
+  ('kivy.lib',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('kivy.input.providers.probesysfs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\probesysfs.py',
+   'PYMODULE'),
+  ('kivy.input.providers.mactouch',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\mactouch.py',
+   'PYMODULE'),
+  ('kivy.input.providers.wm_pen',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\wm_pen.py',
+   'PYMODULE'),
+  ('kivy.input.providers.wm_common',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\wm_common.py',
+   'PYMODULE'),
+  ('kivy.input.providers.wm_touch',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\wm_touch.py',
+   'PYMODULE'),
+  ('kivy.input.providers.mouse',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\mouse.py',
+   'PYMODULE'),
+  ('kivy.input.providers.tuio',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\providers\\tuio.py',
+   'PYMODULE'),
+  ('kivy.input.motionevent',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\input\\motionevent.py',
+   'PYMODULE'),
+  ('kivy.clock',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\clock.py',
+   'PYMODULE'),
+  ('kivy.uix.widget',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\widget.py',
+   'PYMODULE'),
+  ('kivy.uix.button',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\button.py',
+   'PYMODULE'),
+  ('kivy.uix.gridlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\gridlayout.py',
+   'PYMODULE'),
+  ('kivy.uix.label',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\label.py',
+   'PYMODULE'),
+  ('kivy.core.text.markup',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\text\\markup.py',
+   'PYMODULE'),
+  ('kivy.parser',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\parser.py',
+   'PYMODULE'),
+  ('kivy.app',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\app.py',
+   'PYMODULE'),
+  ('kivy.uix.settings',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\settings.py',
+   'PYMODULE'),
+  ('kivy.uix.togglebutton',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\togglebutton.py',
+   'PYMODULE'),
+  ('kivy.uix.textinput',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\textinput.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.image',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\image.py',
+   'PYMODULE'),
+  ('kivy.loader',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\loader.py',
+   'PYMODULE'),
+  ('kivy.uix.bubble',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\bubble.py',
+   'PYMODULE'),
+  ('kivy.uix.scrollview',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\scrollview.py',
+   'PYMODULE'),
+  ('kivy.effects.dampedscroll',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\effects\\dampedscroll.py',
+   'PYMODULE'),
+  ('kivy.effects',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\effects\\__init__.py',
+   'PYMODULE'),
+  ('kivy.effects.scroll',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\effects\\scroll.py',
+   'PYMODULE'),
+  ('kivy.effects.kinetic',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\effects\\kinetic.py',
+   'PYMODULE'),
+  ('kivy.uix.stencilview',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\stencilview.py',
+   'PYMODULE'),
+  ('kivy.uix.filechooser',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\filechooser.py',
+   'PYMODULE'),
+  ('kivy.uix.screenmanager',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\screenmanager.py',
+   'PYMODULE'),
+  ('kivy.uix.tabbedpanel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\tabbedpanel.py',
+   'PYMODULE'),
+  ('kivy.uix.boxlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\boxlayout.py',
+   'PYMODULE'),
+  ('kivy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\__init__.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_dbusklipper',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_dbusklipper.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_xsel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_xsel.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_ffpyplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_ffpyplayer.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_dummy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_dummy.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.views',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recycleview\\views.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recycleview\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.sandbox',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\sandbox.py',
+   'PYMODULE'),
+  ('kivy.uix.videoplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\videoplayer.py',
+   'PYMODULE'),
+  ('kivy.uix.gesturesurface',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\gesturesurface.py',
+   'PYMODULE'),
+  ('colorsys',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\colorsys.py',
+   'PYMODULE'),
+  ('kivy.uix.scatterlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\scatterlayout.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_android',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_android.py',
+   'PYMODULE'),
+  ('kivy.core.window.window_pygame',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\window\\window_pygame.py',
+   'PYMODULE'),
+  ('kivy.support',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\support.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.layout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recycleview\\layout.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_sdl2',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\text\\text_sdl2.py',
+   'PYMODULE'),
+  ('kivy.uix.actionbar',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\actionbar.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_avplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\audio\\audio_avplayer.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_android',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\camera\\camera_android.py',
+   'PYMODULE'),
+  ('kivy.uix.treeview',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\treeview.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_nspaste',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_nspaste.py',
+   'PYMODULE'),
+  ('kivy.uix.splitter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\splitter.py',
+   'PYMODULE'),
+  ('kivy.uix.recyclelayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recyclelayout.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_gtk3',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_gtk3.py',
+   'PYMODULE'),
+  ('kivy.uix.switch',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\switch.py',
+   'PYMODULE'),
+  ('kivy.graphics.cgl_backend',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\graphics\\cgl_backend\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.camera',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\camera.py',
+   'PYMODULE'),
+  ('kivy.core.window.window_sdl2',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\window\\window_sdl2.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_gstplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\video\\video_gstplayer.py',
+   'PYMODULE'),
+  ('kivy.lib.gstplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lib\\gstplayer\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleboxlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recycleboxlayout.py',
+   'PYMODULE'),
+  ('kivy.core.video',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\video\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.colorpicker',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\colorpicker.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_gif',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_gif.py',
+   'PYMODULE'),
+  ('kivy.effects.opacityscroll',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\effects\\opacityscroll.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_null',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\video\\video_null.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_opencv',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\camera\\camera_opencv.py',
+   'PYMODULE'),
+  ('kivy.uix.progressbar',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\progressbar.py',
+   'PYMODULE'),
+  ('kivy.uix.dropdown',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\dropdown.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_dds',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_dds.py',
+   'PYMODULE'),
+  ('kivy.lib.ddsfile',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lib\\ddsfile.py',
+   'PYMODULE'),
+  ('kivy.uix.pagelayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\pagelayout.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_pygame',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\audio\\audio_pygame.py',
+   'PYMODULE'),
+  ('kivy.gesture',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\gesture.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_ffpyplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\video\\video_ffpyplayer.py',
+   'PYMODULE'),
+  ('kivy.weakmethod',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\weakmethod.py',
+   'PYMODULE'),
+  ('kivy.uix.rst',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\rst.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.en',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\en.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\__init__.py',
+   'PYMODULE'),
+  ('docutils.utils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\__init__.py',
+   'PYMODULE'),
+  ('docutils.utils.smartquotes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\smartquotes.py',
+   'PYMODULE'),
+  ('docutils.utils.urischemes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\urischemes.py',
+   'PYMODULE'),
+  ('docutils.utils.roman',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\roman.py',
+   'PYMODULE'),
+  ('docutils.utils.punctuation_chars',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\punctuation_chars.py',
+   'PYMODULE'),
+  ('docutils.utils.error_reporting',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\error_reporting.py',
+   'PYMODULE'),
+  ('docutils.io',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\docutils\\io.py',
+   'PYMODULE'),
+  ('docutils.frontend',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\frontend.py',
+   'PYMODULE'),
+  ('docutils.nodes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\nodes.py',
+   'PYMODULE'),
+  ('docutils.transforms',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\__init__.py',
+   'PYMODULE'),
+  ('docutils.transforms.components',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\components.py',
+   'PYMODULE'),
+  ('docutils.transforms.parts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\parts.py',
+   'PYMODULE'),
+  ('docutils.transforms.misc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\misc.py',
+   'PYMODULE'),
+  ('docutils.transforms.references',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\references.py',
+   'PYMODULE'),
+  ('docutils.transforms.frontmatter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\frontmatter.py',
+   'PYMODULE'),
+  ('docutils.transforms.writer_aux',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\writer_aux.py',
+   'PYMODULE'),
+  ('docutils.transforms.universal',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\transforms\\universal.py',
+   'PYMODULE'),
+  ('docutils.languages',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\__init__.py',
+   'PYMODULE'),
+  ('xml.dom.minidom',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\minidom.py',
+   'PYMODULE'),
+  ('xml.dom.pulldom',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\pulldom.py',
+   'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\domreg.py',
+   'PYMODULE'),
+  ('xml.dom',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\xml\\dom\\__init__.py',
+   'PYMODULE'),
+  ('docutils',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.body',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\body.py',
+   'PYMODULE'),
+  ('docutils.utils.code_analyzer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\code_analyzer.py',
+   'PYMODULE'),
+  ('pygments.formatters.html',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\html.py',
+   'PYMODULE'),
+  ('pygments.formatters',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.plugin',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\plugin.py',
+   'PYMODULE'),
+  ('pygments.formatters._mapping',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\_mapping.py',
+   'PYMODULE'),
+  ('pygments.util',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\util.py',
+   'PYMODULE'),
+  ('pygments.token',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\token.py',
+   'PYMODULE'),
+  ('pygments.formatter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatter.py',
+   'PYMODULE'),
+  ('pygments.styles',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\__init__.py',
+   'PYMODULE'),
+  ('pygments.lexers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\__init__.py',
+   'PYMODULE'),
+  ('pygments.lexers._vbscript_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_vbscript_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._scilab_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_scilab_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._mql_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_mql_builtins.py',
+   'PYMODULE'),
+  ('pygments.modeline',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\modeline.py',
+   'PYMODULE'),
+  ('pygments.lexers._mapping',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_mapping.py',
+   'PYMODULE'),
+  ('pygments',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\__init__.py',
+   'PYMODULE'),
+  ('pygments.styles.borland',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\borland.py',
+   'PYMODULE'),
+  ('pygments.style',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\style.py',
+   'PYMODULE'),
+  ('pygments.styles.colorful',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\colorful.py',
+   'PYMODULE'),
+  ('pygments.styles.pastie',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\pastie.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_light',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\paraiso_light.py',
+   'PYMODULE'),
+  ('pygments.styles.murphy',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\murphy.py',
+   'PYMODULE'),
+  ('pygments.styles.manni',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\manni.py',
+   'PYMODULE'),
+  ('pygments.styles.vim',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\vim.py',
+   'PYMODULE'),
+  ('pygments.styles.arduino',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\arduino.py',
+   'PYMODULE'),
+  ('pygments.styles.inkpot',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\inkpot.py',
+   'PYMODULE'),
+  ('pygments.styles.autumn',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\autumn.py',
+   'PYMODULE'),
+  ('pygments.styles.monokai',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\monokai.py',
+   'PYMODULE'),
+  ('pygments.styles.tango',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\tango.py',
+   'PYMODULE'),
+  ('pygments.styles.abap',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\abap.py',
+   'PYMODULE'),
+  ('pygments.styles.xcode',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\xcode.py',
+   'PYMODULE'),
+  ('pygments.styles.paraiso_dark',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\paraiso_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.vs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\vs.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_light',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\stata_light.py',
+   'PYMODULE'),
+  ('pygments.styles.algol',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\algol.py',
+   'PYMODULE'),
+  ('pygments.styles.fruity',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\fruity.py',
+   'PYMODULE'),
+  ('pygments.styles.solarized',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\solarized.py',
+   'PYMODULE'),
+  ('pygments.styles.sas',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\sas.py',
+   'PYMODULE'),
+  ('pygments.styles.rrt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\rrt.py',
+   'PYMODULE'),
+  ('pygments.styles.emacs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\emacs.py',
+   'PYMODULE'),
+  ('pygments.styles.native',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\native.py',
+   'PYMODULE'),
+  ('pygments.styles.rainbow_dash',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\rainbow_dash.py',
+   'PYMODULE'),
+  ('pygments.styles.bw',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\bw.py',
+   'PYMODULE'),
+  ('pygments.styles.lovelace',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\lovelace.py',
+   'PYMODULE'),
+  ('pygments.styles.algol_nu',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\algol_nu.py',
+   'PYMODULE'),
+  ('pygments.styles.friendly',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\friendly.py',
+   'PYMODULE'),
+  ('pygments.styles.default',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\default.py',
+   'PYMODULE'),
+  ('pygments.styles.stata_dark',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\stata_dark.py',
+   'PYMODULE'),
+  ('pygments.styles.trac',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\trac.py',
+   'PYMODULE'),
+  ('pygments.styles.igor',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\igor.py',
+   'PYMODULE'),
+  ('pygments.styles.perldoc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\styles\\perldoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.perl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\perl.py',
+   'PYMODULE'),
+  ('pygments.lexer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexer.py',
+   'PYMODULE'),
+  ('chardet',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\__init__.py',
+   'PYMODULE'),
+  ('chardet.version',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\version.py',
+   'PYMODULE'),
+  ('chardet.universaldetector',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\universaldetector.py',
+   'PYMODULE'),
+  ('chardet.sbcsgroupprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\sbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.langturkishmodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\langturkishmodel.py',
+   'PYMODULE'),
+  ('chardet.hebrewprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\hebrewprober.py',
+   'PYMODULE'),
+  ('chardet.charsetprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\charsetprober.py',
+   'PYMODULE'),
+  ('chardet.langhebrewmodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\langhebrewmodel.py',
+   'PYMODULE'),
+  ('chardet.langthaimodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\langthaimodel.py',
+   'PYMODULE'),
+  ('chardet.langbulgarianmodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\langbulgarianmodel.py',
+   'PYMODULE'),
+  ('chardet.langgreekmodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\langgreekmodel.py',
+   'PYMODULE'),
+  ('chardet.langcyrillicmodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\langcyrillicmodel.py',
+   'PYMODULE'),
+  ('chardet.sbcharsetprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\sbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.mbcsgroupprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\mbcsgroupprober.py',
+   'PYMODULE'),
+  ('chardet.euctwprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\euctwprober.py',
+   'PYMODULE'),
+  ('chardet.mbcssm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\mbcssm.py',
+   'PYMODULE'),
+  ('chardet.chardistribution',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\chardistribution.py',
+   'PYMODULE'),
+  ('chardet.jisfreq',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\jisfreq.py',
+   'PYMODULE'),
+  ('chardet.big5freq',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\big5freq.py',
+   'PYMODULE'),
+  ('chardet.gb2312freq',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\gb2312freq.py',
+   'PYMODULE'),
+  ('chardet.euckrfreq',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\euckrfreq.py',
+   'PYMODULE'),
+  ('chardet.euctwfreq',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\euctwfreq.py',
+   'PYMODULE'),
+  ('chardet.codingstatemachine',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\codingstatemachine.py',
+   'PYMODULE'),
+  ('chardet.mbcharsetprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\mbcharsetprober.py',
+   'PYMODULE'),
+  ('chardet.big5prober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\big5prober.py',
+   'PYMODULE'),
+  ('chardet.cp949prober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\cp949prober.py',
+   'PYMODULE'),
+  ('chardet.euckrprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\euckrprober.py',
+   'PYMODULE'),
+  ('chardet.gb2312prober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\gb2312prober.py',
+   'PYMODULE'),
+  ('chardet.eucjpprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\eucjpprober.py',
+   'PYMODULE'),
+  ('chardet.jpcntx',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\jpcntx.py',
+   'PYMODULE'),
+  ('chardet.sjisprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\sjisprober.py',
+   'PYMODULE'),
+  ('chardet.utf8prober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\utf8prober.py',
+   'PYMODULE'),
+  ('chardet.latin1prober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\latin1prober.py',
+   'PYMODULE'),
+  ('chardet.escprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\escprober.py',
+   'PYMODULE'),
+  ('chardet.escsm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\escsm.py',
+   'PYMODULE'),
+  ('chardet.enums',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\enums.py',
+   'PYMODULE'),
+  ('chardet.charsetgroupprober',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\charsetgroupprober.py',
+   'PYMODULE'),
+  ('chardet.compat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\chardet\\compat.py',
+   'PYMODULE'),
+  ('pygments.regexopt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\regexopt.py',
+   'PYMODULE'),
+  ('pygments.filters',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\filters\\__init__.py',
+   'PYMODULE'),
+  ('pygments.filter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\filter.py',
+   'PYMODULE'),
+  ('pygments.lexers.ride',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ride.py',
+   'PYMODULE'),
+  ('pygments.lexers.mime',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\mime.py',
+   'PYMODULE'),
+  ('pygments.lexers.scdoc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\scdoc.py',
+   'PYMODULE'),
+  ('pygments.lexers.business',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\business.py',
+   'PYMODULE'),
+  ('pygments.lexers.webidl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\webidl.py',
+   'PYMODULE'),
+  ('pygments.lexers.diff',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\diff.py',
+   'PYMODULE'),
+  ('pygments.lexers._lasso_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_lasso_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.bare',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\bare.py',
+   'PYMODULE'),
+  ('pygments.lexers._lua_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_lua_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.varnish',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\varnish.py',
+   'PYMODULE'),
+  ('pygments.lexers.installers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\installers.py',
+   'PYMODULE'),
+  ('pygments.lexers._asy_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_asy_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.eiffel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\eiffel.py',
+   'PYMODULE'),
+  ('pygments.lexers.csound',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\csound.py',
+   'PYMODULE'),
+  ('pygments.lexers.rust',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\rust.py',
+   'PYMODULE'),
+  ('pygments.lexers.python',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\python.py',
+   'PYMODULE'),
+  ('pygments.lexers.verification',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\verification.py',
+   'PYMODULE'),
+  ('pygments.lexers._postgres_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_postgres_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.gdscript',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\gdscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.freefem',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\freefem.py',
+   'PYMODULE'),
+  ('pygments.lexers.nix',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\nix.py',
+   'PYMODULE'),
+  ('pygments.lexers.tcl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\tcl.py',
+   'PYMODULE'),
+  ('pygments.lexers.testing',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\testing.py',
+   'PYMODULE'),
+  ('pygments.lexers.rebol',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\rebol.py',
+   'PYMODULE'),
+  ('pygments.lexers.configs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\configs.py',
+   'PYMODULE'),
+  ('pygments.lexers.stata',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\stata.py',
+   'PYMODULE'),
+  ('pygments.lexers.forth',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\forth.py',
+   'PYMODULE'),
+  ('pygments.lexers._cocoa_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_cocoa_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.boa',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\boa.py',
+   'PYMODULE'),
+  ('pygments.lexers.sieve',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\sieve.py',
+   'PYMODULE'),
+  ('pygments.lexers.fortran',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\fortran.py',
+   'PYMODULE'),
+  ('pygments.lexers.textfmts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\textfmts.py',
+   'PYMODULE'),
+  ('pygments.lexers.devicetree',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\devicetree.py',
+   'PYMODULE'),
+  ('pygments.lexers.make',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\make.py',
+   'PYMODULE'),
+  ('pygments.lexers.hdl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\hdl.py',
+   'PYMODULE'),
+  ('pygments.lexers.urbi',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\urbi.py',
+   'PYMODULE'),
+  ('pygments.lexers.jvm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\jvm.py',
+   'PYMODULE'),
+  ('pygments.lexers.factor',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\factor.py',
+   'PYMODULE'),
+  ('pygments.lexers.haxe',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\haxe.py',
+   'PYMODULE'),
+  ('pygments.lexers.tnt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\tnt.py',
+   'PYMODULE'),
+  ('pygments.lexers.teraterm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\teraterm.py',
+   'PYMODULE'),
+  ('pygments.lexers.yang',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\yang.py',
+   'PYMODULE'),
+  ('pygments.lexers.html',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\html.py',
+   'PYMODULE'),
+  ('pygments.lexers.ambient',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ambient.py',
+   'PYMODULE'),
+  ('pygments.lexers.javascript',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\javascript.py',
+   'PYMODULE'),
+  ('pygments.lexers.nit',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\nit.py',
+   'PYMODULE'),
+  ('pygments.lexers.php',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\php.py',
+   'PYMODULE'),
+  ('pygments.lexers.floscript',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\floscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.pascal',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\pascal.py',
+   'PYMODULE'),
+  ('pygments.scanner',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\scanner.py',
+   'PYMODULE'),
+  ('pygments.lexers.robotframework',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\robotframework.py',
+   'PYMODULE'),
+  ('pygments.lexers.julia',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\julia.py',
+   'PYMODULE'),
+  ('pygments.lexers.fantom',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\fantom.py',
+   'PYMODULE'),
+  ('pygments.lexers.usd',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\usd.py',
+   'PYMODULE'),
+  ('pygments.lexers.promql',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\promql.py',
+   'PYMODULE'),
+  ('pygments.lexers.rnc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\rnc.py',
+   'PYMODULE'),
+  ('pygments.lexers.roboconf',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\roboconf.py',
+   'PYMODULE'),
+  ('pygments.lexers.ecl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ecl.py',
+   'PYMODULE'),
+  ('pygments.lexers._vim_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_vim_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.monte',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\monte.py',
+   'PYMODULE'),
+  ('pygments.lexers.special',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\special.py',
+   'PYMODULE'),
+  ('pygments.lexers.parasail',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\parasail.py',
+   'PYMODULE'),
+  ('pygments.lexers.automation',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\automation.py',
+   'PYMODULE'),
+  ('pygments.lexers.text',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\text.py',
+   'PYMODULE'),
+  ('pygments.lexers.algebra',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\algebra.py',
+   'PYMODULE'),
+  ('pygments.lexers.rdf',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\rdf.py',
+   'PYMODULE'),
+  ('pygments.lexers.hexdump',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\hexdump.py',
+   'PYMODULE'),
+  ('pygments.lexers.lisp',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\lisp.py',
+   'PYMODULE'),
+  ('pygments.lexers.textedit',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\textedit.py',
+   'PYMODULE'),
+  ('pygments.lexers.shell',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\shell.py',
+   'PYMODULE'),
+  ('pygments.lexers.parsers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\parsers.py',
+   'PYMODULE'),
+  ('pygments.lexers.supercollider',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\supercollider.py',
+   'PYMODULE'),
+  ('pygments.lexers.ml',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ml.py',
+   'PYMODULE'),
+  ('pygments.lexers.snobol',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\snobol.py',
+   'PYMODULE'),
+  ('pygments.lexers.ezhil',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ezhil.py',
+   'PYMODULE'),
+  ('pygments.lexers.ncl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ncl.py',
+   'PYMODULE'),
+  ('pygments.lexers.agile',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\agile.py',
+   'PYMODULE'),
+  ('pygments.lexers.xorg',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\xorg.py',
+   'PYMODULE'),
+  ('pygments.lexers.nimrod',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\nimrod.py',
+   'PYMODULE'),
+  ('pygments.lexers._usd_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_usd_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.arrow',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\arrow.py',
+   'PYMODULE'),
+  ('pygments.lexers.clean',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\clean.py',
+   'PYMODULE'),
+  ('pygments.lexers.sgf',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\sgf.py',
+   'PYMODULE'),
+  ('pygments.lexers.apl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\apl.py',
+   'PYMODULE'),
+  ('pygments.lexers.int_fiction',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\int_fiction.py',
+   'PYMODULE'),
+  ('pygments.lexers.bibtex',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\bibtex.py',
+   'PYMODULE'),
+  ('pygments.lexers._openedge_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_openedge_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.smalltalk',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\smalltalk.py',
+   'PYMODULE'),
+  ('pygments.lexers.crystal',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\crystal.py',
+   'PYMODULE'),
+  ('pygments.lexers.pawn',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\pawn.py',
+   'PYMODULE'),
+  ('pygments.lexers.j',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\j.py',
+   'PYMODULE'),
+  ('pygments.lexers.elm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\elm.py',
+   'PYMODULE'),
+  ('pygments.lexers.css',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\css.py',
+   'PYMODULE'),
+  ('pygments.lexers.sql',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\sql.py',
+   'PYMODULE'),
+  ('pygments.lexers.smv',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\smv.py',
+   'PYMODULE'),
+  ('pygments.lexers.data',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\data.py',
+   'PYMODULE'),
+  ('pygments.lexers.objective',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\objective.py',
+   'PYMODULE'),
+  ('pygments.lexers.typoscript',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\typoscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.dalvik',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\dalvik.py',
+   'PYMODULE'),
+  ('pygments.lexers.compiled',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\compiled.py',
+   'PYMODULE'),
+  ('pygments.lexers.actionscript',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\actionscript.py',
+   'PYMODULE'),
+  ('pygments.lexers._csound_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_csound_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.x10',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\x10.py',
+   'PYMODULE'),
+  ('pygments.lexers.slash',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\slash.py',
+   'PYMODULE'),
+  ('pygments.lexers.zig',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\zig.py',
+   'PYMODULE'),
+  ('pygments.lexers.capnproto',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\capnproto.py',
+   'PYMODULE'),
+  ('pygments.lexers.basic',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\basic.py',
+   'PYMODULE'),
+  ('pygments.lexers._php_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_php_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.math',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\math.py',
+   'PYMODULE'),
+  ('pygments.lexers.dotnet',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\dotnet.py',
+   'PYMODULE'),
+  ('pygments.lexers.pointless',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\pointless.py',
+   'PYMODULE'),
+  ('pygments.lexers.iolang',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\iolang.py',
+   'PYMODULE'),
+  ('pygments.lexers.other',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\other.py',
+   'PYMODULE'),
+  ('pygments.lexers.ampl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ampl.py',
+   'PYMODULE'),
+  ('pygments.lexers.solidity',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\solidity.py',
+   'PYMODULE'),
+  ('pygments.lexers.modeling',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\modeling.py',
+   'PYMODULE'),
+  ('pygments.lexers.mosel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\mosel.py',
+   'PYMODULE'),
+  ('pygments.lexers.grammar_notation',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\grammar_notation.py',
+   'PYMODULE'),
+  ('pygments.lexers.graph',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\graph.py',
+   'PYMODULE'),
+  ('pygments.lexers.matlab',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\matlab.py',
+   'PYMODULE'),
+  ('pygments.lexers.esoteric',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\esoteric.py',
+   'PYMODULE'),
+  ('pygments.lexers.felix',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\felix.py',
+   'PYMODULE'),
+  ('pygments.lexers.web',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\web.py',
+   'PYMODULE'),
+  ('pygments.lexers.resource',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\resource.py',
+   'PYMODULE'),
+  ('pygments.lexers.webmisc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\webmisc.py',
+   'PYMODULE'),
+  ('pygments.lexers.theorem',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\theorem.py',
+   'PYMODULE'),
+  ('pygments.lexers.prolog',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\prolog.py',
+   'PYMODULE'),
+  ('pygments.lexers.markup',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\markup.py',
+   'PYMODULE'),
+  ('pygments.lexers.foxpro',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\foxpro.py',
+   'PYMODULE'),
+  ('pygments.lexers.qvt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\qvt.py',
+   'PYMODULE'),
+  ('pygments.lexers.go',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\go.py',
+   'PYMODULE'),
+  ('pygments.lexers.graphics',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\graphics.py',
+   'PYMODULE'),
+  ('pygments.lexers._sourcemod_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_sourcemod_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.dsls',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\dsls.py',
+   'PYMODULE'),
+  ('pygments.lexers.unicon',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\unicon.py',
+   'PYMODULE'),
+  ('pygments.lexers.email',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\email.py',
+   'PYMODULE'),
+  ('pygments.lexers.ruby',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ruby.py',
+   'PYMODULE'),
+  ('pygments.lexers.archetype',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\archetype.py',
+   'PYMODULE'),
+  ('pygments.lexers._mysql_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_mysql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers._stata_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_stata_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.inferno',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\inferno.py',
+   'PYMODULE'),
+  ('pygments.lexers._cl_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_cl_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.oberon',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\oberon.py',
+   'PYMODULE'),
+  ('pygments.lexers.erlang',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\erlang.py',
+   'PYMODULE'),
+  ('pygments.lexers.whiley',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\whiley.py',
+   'PYMODULE'),
+  ('pygments.lexers.trafficscript',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\trafficscript.py',
+   'PYMODULE'),
+  ('pygments.lexers.console',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\console.py',
+   'PYMODULE'),
+  ('pygments.lexers.pony',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\pony.py',
+   'PYMODULE'),
+  ('pygments.lexers.scripting',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\scripting.py',
+   'PYMODULE'),
+  ('pygments.lexers.idl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\idl.py',
+   'PYMODULE'),
+  ('pygments.lexers._tsql_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_tsql_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.functional',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\functional.py',
+   'PYMODULE'),
+  ('pygments.lexers._stan_builtins',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\_stan_builtins.py',
+   'PYMODULE'),
+  ('pygments.lexers.modula2',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\modula2.py',
+   'PYMODULE'),
+  ('pygments.lexers.d',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\d.py',
+   'PYMODULE'),
+  ('pygments.lexers.templates',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\templates.py',
+   'PYMODULE'),
+  ('pygments.lexers.sas',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\sas.py',
+   'PYMODULE'),
+  ('pygments.lexers.igor',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\igor.py',
+   'PYMODULE'),
+  ('pygments.lexers.dylan',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\dylan.py',
+   'PYMODULE'),
+  ('pygments.lexers.praat',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\praat.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_like',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\c_like.py',
+   'PYMODULE'),
+  ('pygments.lexers.ooc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\ooc.py',
+   'PYMODULE'),
+  ('pygments.lexers.chapel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\chapel.py',
+   'PYMODULE'),
+  ('pygments.lexers.r',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\r.py',
+   'PYMODULE'),
+  ('pygments.lexers.asm',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\asm.py',
+   'PYMODULE'),
+  ('pygments.lexers.haskell',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\haskell.py',
+   'PYMODULE'),
+  ('pygments.lexers.c_cpp',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\lexers\\c_cpp.py',
+   'PYMODULE'),
+  ('pygments.formatters.img',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\img.py',
+   'PYMODULE'),
+  ('pygments.formatters.rtf',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\rtf.py',
+   'PYMODULE'),
+  ('pygments.formatters.irc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\irc.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\terminal.py',
+   'PYMODULE'),
+  ('pygments.console',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\console.py',
+   'PYMODULE'),
+  ('pygments.formatters.latex',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\latex.py',
+   'PYMODULE'),
+  ('pygments.formatters.other',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\other.py',
+   'PYMODULE'),
+  ('pygments.formatters.bbcode',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\bbcode.py',
+   'PYMODULE'),
+  ('pygments.formatters.terminal256',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\terminal256.py',
+   'PYMODULE'),
+  ('pygments.formatters.svg',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\formatters\\svg.py',
+   'PYMODULE'),
+  ('pygments.unistring',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\pygments\\unistring.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.admonitions',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\admonitions.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.states',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\states.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.tableparser',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\tableparser.py',
+   'PYMODULE'),
+  ('docutils.statemachine',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\statemachine.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.html',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\html.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.images',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\images.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.parts',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\parts.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.misc',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\misc.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.references',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\references.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.directives.tables',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\directives\\tables.py',
+   'PYMODULE'),
+  ('csv', 'd:\\nta\\basic soft\\python3.7-64bit\\lib\\csv.py', 'PYMODULE'),
+  ('docutils.parsers.rst.languages.zh_cn',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\zh_cn.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.fa',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\fa.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.da',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\da.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.lt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\lt.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.eo',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\eo.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.pt_br',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\pt_br.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ca',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\ca.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.cs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\cs.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.it',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\it.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.zh_tw',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\zh_tw.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.nl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\nl.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.fr',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\fr.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ru',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\ru.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.af',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\af.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ko',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\ko.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.gl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\gl.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.lv',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\lv.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.pl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\pl.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.ja',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\ja.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.de',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\de.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.fi',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\fi.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.es',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\es.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.sv',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\sv.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.sk',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\sk.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.languages.he',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\languages\\he.py',
+   'PYMODULE'),
+  ('docutils.writers.docutils_xml',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\docutils_xml.py',
+   'PYMODULE'),
+  ('docutils.writers.html5_polyglot',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\html5_polyglot\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.odf_odt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\odf_odt\\__init__.py',
+   'PYMODULE'),
+  ('docutils.readers.standalone',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\readers\\standalone.py',
+   'PYMODULE'),
+  ('docutils.readers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\readers\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers._html_base',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\_html_base.py',
+   'PYMODULE'),
+  ('docutils.utils.math.tex2mathml_extern',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\math\\tex2mathml_extern.py',
+   'PYMODULE'),
+  ('docutils.utils.math.latex2mathml',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\math\\latex2mathml.py',
+   'PYMODULE'),
+  ('docutils.utils.math.tex2unichar',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\math\\tex2unichar.py',
+   'PYMODULE'),
+  ('docutils.utils.math.math2html',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\math\\math2html.py',
+   'PYMODULE'),
+  ('docutils.utils.math.unichar2tex',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\math\\unichar2tex.py',
+   'PYMODULE'),
+  ('docutils.utils.math',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\utils\\math\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.odf_odt.pygmentsformatter',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\odf_odt\\pygmentsformatter.py',
+   'PYMODULE'),
+  ('docutils.writers.null',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\null.py',
+   'PYMODULE'),
+  ('docutils.writers.latex2e',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\latex2e\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.html4css1',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\html4css1\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.pseudoxml',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\pseudoxml.py',
+   'PYMODULE'),
+  ('docutils.writers.s5_html',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\s5_html\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.pep_html',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\pep_html\\__init__.py',
+   'PYMODULE'),
+  ('docutils.writers.manpage',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\manpage.py',
+   'PYMODULE'),
+  ('docutils.writers.xetex',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\writers\\xetex\\__init__.py',
+   'PYMODULE'),
+  ('docutils.languages.pt_br',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\pt_br.py',
+   'PYMODULE'),
+  ('docutils.languages.lv',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\lv.py',
+   'PYMODULE'),
+  ('docutils.languages.he',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\he.py',
+   'PYMODULE'),
+  ('docutils.languages.en',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\en.py',
+   'PYMODULE'),
+  ('docutils.languages.ko',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\ko.py',
+   'PYMODULE'),
+  ('docutils.languages.af',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\af.py',
+   'PYMODULE'),
+  ('docutils.languages.fa',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\fa.py',
+   'PYMODULE'),
+  ('docutils.languages.da',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\da.py',
+   'PYMODULE'),
+  ('docutils.languages.lt',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\lt.py',
+   'PYMODULE'),
+  ('docutils.languages.sv',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\sv.py',
+   'PYMODULE'),
+  ('docutils.languages.nl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\nl.py',
+   'PYMODULE'),
+  ('docutils.languages.ca',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\ca.py',
+   'PYMODULE'),
+  ('docutils.languages.it',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\it.py',
+   'PYMODULE'),
+  ('docutils.languages.fi',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\fi.py',
+   'PYMODULE'),
+  ('docutils.languages.ru',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\ru.py',
+   'PYMODULE'),
+  ('docutils.languages.ja',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\ja.py',
+   'PYMODULE'),
+  ('docutils.languages.de',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\de.py',
+   'PYMODULE'),
+  ('docutils.languages.sk',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\sk.py',
+   'PYMODULE'),
+  ('docutils.languages.zh_tw',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\zh_tw.py',
+   'PYMODULE'),
+  ('docutils.languages.zh_cn',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\zh_cn.py',
+   'PYMODULE'),
+  ('docutils.languages.pl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\pl.py',
+   'PYMODULE'),
+  ('docutils.languages.cs',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\cs.py',
+   'PYMODULE'),
+  ('docutils.languages.gl',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\gl.py',
+   'PYMODULE'),
+  ('docutils.languages.eo',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\eo.py',
+   'PYMODULE'),
+  ('docutils.languages.fr',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\fr.py',
+   'PYMODULE'),
+  ('docutils.languages.es',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\languages\\es.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst.roles',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\roles.py',
+   'PYMODULE'),
+  ('docutils.parsers.rst',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\rst\\__init__.py',
+   'PYMODULE'),
+  ('docutils.parsers',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\docutils\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard._clipboard_ext',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\_clipboard_ext.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_gstplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\audio\\audio_gstplayer.py',
+   'PYMODULE'),
+  ('kivy.core.spelling',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\spelling\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.effectwidget',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\effectwidget.py',
+   'PYMODULE'),
+  ('kivy.core.video.video_ffmpeg',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\video\\video_ffmpeg.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_gi',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\camera\\camera_gi.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_pygame',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_pygame.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_xclip',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_xclip.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_pygame',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_pygame.py',
+   'PYMODULE'),
+  ('kivy.multistroke',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\multistroke.py',
+   'PYMODULE'),
+  ('kivy.uix.stacklayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\stacklayout.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_pil',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\text\\text_pil.py',
+   'PYMODULE'),
+  ('kivy.core.audio.audio_ffpyplayer',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\audio\\audio_ffpyplayer.py',
+   'PYMODULE'),
+  ('kivy.uix.checkbox',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\checkbox.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_sdl2',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_sdl2.py',
+   'PYMODULE'),
+  ('kivy.core.text.text_pygame',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\text\\text_pygame.py',
+   'PYMODULE'),
+  ('kivy.uix.recyclegridlayout',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recyclegridlayout.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_pil',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_pil.py',
+   'PYMODULE'),
+  ('kivy.core.camera.camera_picamera',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\camera\\camera_picamera.py',
+   'PYMODULE'),
+  ('kivy.uix.spinner',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\spinner.py',
+   'PYMODULE'),
+  ('kivy.uix.video',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\video.py',
+   'PYMODULE'),
+  ('kivy.core.window.window_egl_rpi',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\window\\window_egl_rpi.py',
+   'PYMODULE'),
+  ('kivy.lib.vidcore_lite',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\lib\\vidcore_lite\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.behaviors.knspace',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\behaviors\\knspace.py',
+   'PYMODULE'),
+  ('kivy.uix.slider',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\slider.py',
+   'PYMODULE'),
+  ('kivy.core.camera',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\camera\\__init__.py',
+   'PYMODULE'),
+  ('kivy.core.clipboard.clipboard_winctypes',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\clipboard\\clipboard_winctypes.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_tex',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_tex.py',
+   'PYMODULE'),
+  ('kivy.core.image.img_sdl2',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\image\\img_sdl2.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.__init__',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recycleview\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.recycleview.datamodel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\recycleview\\datamodel.py',
+   'PYMODULE'),
+  ('kivy.uix.accordion',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\accordion.py',
+   'PYMODULE'),
+  ('kivy.core.audio',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\audio\\__init__.py',
+   'PYMODULE'),
+  ('kivy.core.spelling.spelling_osxappkit',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\spelling\\spelling_osxappkit.py',
+   'PYMODULE'),
+  ('kivy.core.spelling.spelling_enchant',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\core\\spelling\\spelling_enchant.py',
+   'PYMODULE'),
+  ('kivy.uix.codeinput',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\codeinput.py',
+   'PYMODULE'),
+  ('kivy.extras.highlight',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\extras\\highlight.py',
+   'PYMODULE'),
+  ('kivy.extras',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\extras\\__init__.py',
+   'PYMODULE'),
+  ('kivy.uix.carousel',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\uix\\carousel.py',
+   'PYMODULE'),
+  ('kivy_deps',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy_deps\\__init__.py',
+   'PYMODULE'),
+  ('kivy.deps',
+   'd:\\nta\\basic '
+   'soft\\python3.7-64bit\\lib\\site-packages\\kivy\\deps\\__init__.py',
+   'PYMODULE'),
+  ('kivy.version',
+   'd:\\nta\\basic soft\\python3.7-64bit\\lib\\site-packages\\kivy\\version.py',
+   'PYMODULE')])

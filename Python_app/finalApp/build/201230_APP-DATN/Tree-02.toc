@@ -1,0 +1,7 @@
+('d:\\nta\\basic soft\\python3.7-64bit\\share\\glew\\bin',
+ None,
+ [],
+ 'DATA',
+ [('glew32.dll',
+   'd:\\nta\\basic soft\\python3.7-64bit\\share\\glew\\bin\\glew32.dll',
+   'DATA')])
