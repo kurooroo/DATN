@@ -33,8 +33,6 @@ bool pressed = false;
 int longPressTime = 0;
 long mqttReconnect, wifiRec;
 
-// ham doc nut an
-// void read_bt(void);
 // ham thay doi trang thai relay
 void changeOutput(void);
 // ham set up wifi
@@ -44,7 +42,6 @@ void callback(char* topic,byte* payload, unsigned int length);
 // ham reconnect server mqtt
 void reconnect(int numberTry);
 // ham update trang thay hien tai cua switch
-// void update_state(void);
 void updateState(void);
 // ham xu li nut an giu
 void longPress(void);
